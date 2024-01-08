@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-plane_classes = os.listdir("../OceanState/trajs")
+plane_classes = os.listdir("trajs")
 marks = ["valid", "test", "train"] 
 
 df_all = pd.DataFrame()
@@ -10,10 +10,10 @@ for plane_class in plane_classes:
 
     for mark in marks:
 
-        if not os.path.isfile("../OceanState/trajs/" + plane_class + "/" + mark + "/" + plane_class + "_" + mark + "_num_connections.csv"):
+        if not os.path.isfile("trajs/" + plane_class + "/" + mark + "/" + plane_class + "_" + mark + "_num_connections.csv"):
             continue
         print(plane_class, mark)
-        pd_df = pd.read_csv("../OceanState/trajs/" + plane_class + "/" + mark + "/" + plane_class + "_" + mark + "_num_connections.csv", index_col = False)
+        pd_df = pd.read_csv("trajs/" + plane_class + "/" + mark + "/" + plane_class + "_" + mark + "_num_connections.csv", index_col = False)
         df_all = pd.concat([df_all, pd_df])
 
 all_destinations = set(df_all["toICAO"])

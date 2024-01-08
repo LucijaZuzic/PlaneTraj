@@ -5,6 +5,8 @@ import numpy as np
 from scipy.stats import gaussian_kde
 from utilities import save_object, load_object
 
+universal_limits  = range(361)
+
 ang_limits = dict()
 ang_limits["LDZA"] = [0, 13, 75, 115, 140, 165, 180, 215, 280, 318, 360]
 ang_limits["EGLL"] = [0, 60, 150, 180, 210, 255, 340, 360]
@@ -18,7 +20,7 @@ ang_limits["KJFK"] = [0, 22, 55, 120, 150, 158, 167, 205, 216, 287, 320, 339, 36
  
 plane_classes = os.listdir("trajs")
 marks = ["valid"] 
-starts = list(ang_limits.keys())
+starts = ["EGLL"]
 
 ends = {start: [] for start in starts} 
 
@@ -47,6 +49,8 @@ for plane_class in plane_classes:
                 if not os.path.isfile(filename):
                     continue
 
+                #print(filename)
+
                 pd_file = pd.read_csv(filename, index_col = False)
 
                 pd_file['group'] = pd_file['timestep'].eq(0).cumsum()
@@ -61,13 +65,15 @@ for plane_class in plane_classes:
 
 xoffset = dict()
 yoffset = dict()
-ang = dict() 
+ang = dict()
+label_ang = dict()  
 
 for first_part in starts:
 
     xoffset[first_part] = dict()
     yoffset[first_part] = dict()
-    ang[first_part] = dict()  
+    ang[first_part] = dict()
+    label_ang[first_part] = dict()  
 
     for mark in marks:
 
@@ -81,61 +87,59 @@ for first_part in starts:
         X = [] 
         Y = []
         ang[first_part][mark] = []
+        label_ang[first_part][mark] = []
 
         for i in range(len(xoffset[first_part][mark])):
             X.append([xoffset[first_part][mark][i][-1], yoffset[first_part][mark][i][-1]]) 
             Y.append(desti[first_part][mark][i][0])
             ang_one = (360 + np.arctan2(yoffset[first_part][mark][i][-1], xoffset[first_part][mark][i][-1]) / np.pi * 180) % 360
             ang[first_part][mark].append(ang_one)
+            for i in range(len(universal_limits) - 1):
+                if ang_one >= universal_limits[i] and ang_one < universal_limits[i + 1]:
+                    label_ang[first_part][mark].append(i)
+                    break
 
     all_together = []
     all_stacked = []
+    count_of_label = [0 for val in range(360)]
 
     for mark in marks:
         all_stacked.append(ang[first_part][mark])
         for val in ang[first_part][mark]:
             all_together.append(val)
+        for val in label_ang[first_part][mark]:        
+            count_of_label[val] += 1
+     
+    sgn_label = [count_of_label[i] < count_of_label[i + 1] for i in range(359)] 
 
-    kernel = gaussian_kde(all_together) 
+    infl_point = []
+    mini_point = [0]
 
-    xx = np.arange(0, 361, 1)
-    yxx = kernel(np.arange(0, 361, 1))
-    yxx_sgn = [yxx[i - 1] < yxx[i] for i in range(1, len(yxx))]
-    yxx_sgn_change = [yxx_sgn[i - 1] != yxx_sgn[i] for i in range(1, len(yxx_sgn))]
-    infls = []
-    mini = []
-    maxi = []
-    for i, ch in enumerate(yxx_sgn_change):
-        if ch:
-            infls.append(i + 1)
-            if yxx_sgn[i] and not yxx_sgn[i + 1]:
-                maxi.append(i + 1)
-            else:
-                mini.append(i + 1)
-    print(infls, maxi, mini)
+    for i in range(358):
+        if sgn_label[i] != sgn_label[i + 1]:
+            infl_point.append(i + 1)
+            if sgn_label[i] == False and sgn_label[i + 1] == True:
+                mini_point.append(i + 1)
 
-    new_mini = [0]
-    for mini_n in mini:
-        new_mini.append(mini_n)
-    new_mini.append(360)
+    mini_point.append(360)
 
-    if not os.path.isdir("KDE_limits"):
-        os.makedirs("KDE_limits")
-    
-    print(new_mini)
-    save_object("KDE_limits/" + first_part + "_KDE_limits", new_mini)
+    if not os.path.isdir("local_min"):
+        os.makedirs("local_min")
+                    
+    save_object("local_min/" + first_part + "_local_mins", mini_point)
 
+    print(infl_point)
+    print(mini_point)
     plt.title(first_part)
     plt.hist(all_stacked, bins = 360, stacked = True)
 
-    for val in mini:
-        plt.axvline(xx[val])
- 
-    plt.plot(xx, yxx * len(all_together)) 
+    for val in mini_point:
+        plt.axvline(val)
+  
     plt.show()
     plt.close()
-
+    
     plt.title(first_part)
-    plt.hist(all_stacked, bins = new_mini, stacked = True)
+    plt.hist(all_stacked, bins = mini_point, stacked = True)
     plt.show()
     plt.close() 

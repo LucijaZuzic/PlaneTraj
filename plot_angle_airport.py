@@ -22,7 +22,7 @@ for ak in ang_limits:
     if os.path.isfile("KDE_limits/" + ak + "_KDE_limits"):
         ang_limits[ak] = load_object("KDE_limits/" + ak + "_KDE_limits")
 
-plane_classes = os.listdir("../OceanState/trajs")
+plane_classes = os.listdir("trajs")
 marks = ["valid", "test", "train"] 
 starts = ["LDZA"]
 
@@ -38,17 +38,17 @@ for plane_class in plane_classes:
 
         for first_part in starts:
             
-            if not os.path.isdir("../OceanState/trajs/" + plane_class + "/" + mark + "/" + first_part + "/"):
+            if not os.path.isdir("trajs/" + plane_class + "/" + mark + "/" + first_part + "/"):
                 continue
 
-            for filename_short in os.listdir("../OceanState/trajs/" + plane_class + "/" + mark + "/" + first_part + "/"):
+            for filename_short in os.listdir("trajs/" + plane_class + "/" + mark + "/" + first_part + "/"):
                 
                 second_part = filename_short.replace(".csv", "").split("_")[-1]
 
                 if len(ends[first_part]) > 0 and second_part not in ends[first_part]:
                     continue
  
-                filename = "../OceanState/trajs/" + plane_class + "/" + mark + "/" + first_part + "/" + filename_short
+                filename = "trajs/" + plane_class + "/" + mark + "/" + first_part + "/" + filename_short
 
                 if not os.path.isfile(filename):
                     continue
