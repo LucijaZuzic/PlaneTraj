@@ -120,8 +120,8 @@ for first_part in starts:
             
             plt.plot(longs[first_part][mark][i], lats[first_part][mark][i])
 
-    plt.show()
-    plt.close()
+            plt.show()
+            plt.close()
     plt.figure()
 
     ax = plt.gca()

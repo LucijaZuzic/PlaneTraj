@@ -19,7 +19,7 @@ ang_limits["KLAX"] = [0, 17, 75, 127, 162, 200, 270, 325, 342, 360]
 ang_limits["KJFK"] = [0, 22, 55, 120, 150, 158, 167, 205, 216, 287, 320, 339, 360]
  
 plane_classes = os.listdir("trajs")
-marks = ["valid"] 
+marks = ["valid", "train", "test"] 
 starts = ["EGLL"]
 
 ends = {start: [] for start in starts} 
@@ -110,10 +110,14 @@ for first_part in starts:
         for val in label_ang[first_part][mark]:        
             count_of_label[val] += 1
      
-    sgn_label = [count_of_label[i] < count_of_label[i + 1] for i in range(359)] 
+    print(count_of_label)
+    sgn_label = [count_of_label[i] <= count_of_label[i + 1] for i in range(359)]
+    diff_label = [abs(count_of_label[i + 1] - count_of_label[i]) for i in range(359)]
+    print(sgn_label)  
 
     infl_point = []
     mini_point = [0]
+    infl_thr = 10
 
     for i in range(358):
         if sgn_label[i] != sgn_label[i + 1]:
@@ -131,7 +135,7 @@ for first_part in starts:
     print(infl_point)
     print(mini_point)
     plt.title(first_part)
-    plt.hist(all_stacked, bins = 360, stacked = True)
+    plt.hist(all_stacked, bins = universal_limits, stacked = True)
 
     for val in mini_point:
         plt.axvline(val)
