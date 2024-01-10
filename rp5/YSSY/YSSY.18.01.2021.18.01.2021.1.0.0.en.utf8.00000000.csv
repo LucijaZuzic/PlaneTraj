@@ -1,0 +1,55 @@
+# Weather station Sydney (airport), Australia, METAR=YSSY,selection from 18.01.2021 till 18.01.2021, all days
+# Encoding: UTF-8
+# The data is provided by the website "Reliable Prognosis", rp5.ru
+# If you use the data, please indicate the name of the website.
+# For meteorological parameters see the address http://rp5.ru/metar.php?metar=YSSY&lang=en
+#
+"Local time in Sydney (airport)";"T";"P0";"P";"U";"DD";"Ff";"ff10";"WW";"W'W'";"c";"VV";"Td";
+"18.01.2021 23:30";"22.0";"757.2";"757.7";"83";"Wind blowing from the south";"3";"";"";"";"No Significant Clouds";"10.0 and more";"19.0";
+"18.01.2021 23:00";"23.0";"757.2";"757.7";"78";"Wind blowing from the west";"2";"";"";"";"No Significant Clouds";"10.0 and more";"19.0";
+"18.01.2021 22:30";"24.0";"757.2";"757.7";"74";"Wind blowing from the north";"3";"";"";"";"No Significant Clouds";"10.0 and more";"19.0";
+"18.01.2021 22:00";"24.0";"757.2";"757.7";"78";"Wind blowing from the north-northeast";"4";"";"";"";"No Significant Clouds";"10.0 and more";"20.0";
+"18.01.2021 21:30";"24.0";"756.4";"756.9";"78";"Wind blowing from the north-northeast";"5";"";"";"";"No Significant Clouds";"10.0 and more";"20.0";
+"18.01.2021 21:00";"25.0";"756.4";"756.9";"69";"Wind blowing from the north-northeast";"4";"";"";"";"No Significant Clouds";"10.0 and more";"19.0";
+"18.01.2021 20:30";"26.0";"756.4";"756.9";"61";"Wind blowing from the north-northeast";"5";"";"";"";"No Significant Clouds";"10.0 and more";"18.0";
+"18.01.2021 20:00";"25.0";"756.4";"756.9";"61";"Wind blowing from the north-northeast";"6";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"18.01.2021 19:30";"27.0";"756.4";"756.9";"54";"Wind blowing from the north-east";"7";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"18.01.2021 19:00";"27.0";"755.7";"756.2";"45";"Wind blowing from the north-east";"7";"";"";"";"No Significant Clouds";"10.0 and more";"14.0";
+"18.01.2021 18:30";"27.0";"755.7";"756.2";"48";"Wind blowing from the north-east";"7";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"18.01.2021 18:00";"27.0";"755.7";"756.2";"48";"Wind blowing from the north-east";"9";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"18.01.2021 17:30";"29.0";"755.7";"756.2";"48";"Wind blowing from the north-east";"10";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"18.01.2021 17:00";"29.0";"755.7";"756.2";"45";"Wind blowing from the east-northeast";"10";"";"";"";"No Significant Clouds";"10.0 and more";"16.0";
+"18.01.2021 16:30";"29.0";"755.7";"756.2";"45";"Wind blowing from the north-east";"9";"";"";"";"No Significant Clouds";"10.0 and more";"16.0";
+"18.01.2021 16:00";"28.0";"756.4";"756.9";"48";"Wind blowing from the east-northeast";"9";"";"";"";"No Significant Clouds";"10.0 and more";"16.0";
+"18.01.2021 15:30";"30.0";"756.4";"756.9";"49";"Wind blowing from the east-northeast";"9";"";"";"";"No Significant Clouds";"10.0 and more";"18.0";
+"18.01.2021 15:00";"29.0";"757.2";"757.7";"48";"Wind blowing from the east-northeast";"8";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"18.01.2021 14:30";"29.0";"757.2";"757.7";"45";"Wind blowing from the north-east";"9";"";"";"";"No Significant Clouds";"10.0 and more";"16.0";
+"18.01.2021 14:00";"28.0";"757.2";"757.7";"51";"Wind blowing from the north-east";"8";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"18.01.2021 13:30";"29.0";"757.7";"758.2";"48";"Wind blowing from the north-east";"8";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"18.01.2021 13:00";"29.0";"757.7";"758.2";"48";"Wind blowing from the north-east";"8";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"18.01.2021 12:30";"28.0";"758.5";"759.0";"48";"Wind blowing from the north-northeast";"6";"";"";"";"No Significant Clouds";"10.0 and more";"16.0";
+"18.01.2021 12:00";"29.0";"759.2";"759.7";"37";"Wind blowing from the north";"4";"";"";"";"No Significant Clouds";"10.0 and more";"13.0";
+"18.01.2021 11:30";"28.0";"759.2";"759.7";"40";"Wind blowing from the north";"4";"";"";"";"No Significant Clouds";"10.0 and more";"13.0";
+"18.01.2021 11:00";"28.0";"759.2";"759.7";"42";"Wind blowing from the north-west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"14.0";
+"18.01.2021 10:30";"27.0";"760.0";"760.5";"45";"Wind blowing from the north-northwest";"5";"";"";"";"No Significant Clouds";"10.0 and more";"14.0";
+"18.01.2021 10:00";"26.0";"760.0";"760.5";"48";"Wind blowing from the north-northwest";"6";"";"";"";"Few clouds (10-30%) 960 m";"10.0 and more";"14.0";
+"18.01.2021 09:30";"26.0";"760.0";"760.5";"58";"Wind blowing from the north-northwest";"6";"";"";"";"Few clouds (10-30%) 1050 m";"10.0 and more";"17.0";
+"18.01.2021 09:00";"24.0";"760.0";"760.5";"57";"Wind blowing from the north-northwest";"5";"";"";"";"Few clouds (10-30%) 1050 m";"10.0 and more";"15.0";
+"18.01.2021 08:30";"24.0";"760.0";"760.5";"57";"Wind blowing from the north-west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"18.01.2021 08:00";"23.0";"760.0";"760.5";"61";"Wind blowing from the west-northwest";"3";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"18.01.2021 07:30";"22.0";"760.0";"760.5";"65";"Wind blowing from the north-west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"18.01.2021 07:00";"21.0";"760.0";"760.5";"69";"Wind blowing from the north-west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"18.01.2021 06:30";"21.0";"760.0";"760.5";"69";"Wind blowing from the north-northwest";"3";"";"";"";"Few clouds (10-30%) 600 m";"10.0 and more";"15.0";
+"18.01.2021 06:00";"20.0";"760.0";"760.5";"73";"Wind blowing from the west-southwest";"3";"";"";"";"Few clouds (10-30%) 540 m";"10.0 and more";"15.0";
+"18.01.2021 05:30";"20.0";"760.0";"760.5";"73";"Wind blowing from the west-southwest";"2";"";"";"";"Few clouds (10-30%) 750 m, scattered clouds (40-50%) 900 m";"10.0 and more";"15.0";
+"18.01.2021 05:00";"20.0";"759.2";"759.7";"73";"Wind blowing from the west-southwest";"3";"";"";"";"Broken clouds (60-90%) 750 m";"10.0 and more";"15.0";
+"18.01.2021 04:30";"20.0";"759.2";"759.7";"78";"Wind blowing from the west";"3";"";"";"";"Scattered clouds (40-50%) 840 m";"10.0 and more";"16.0";
+"18.01.2021 04:00";"20.0";"759.2";"759.7";"73";"Wind blowing from the west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"18.01.2021 03:30";"20.0";"760.0";"760.5";"73";"Wind blowing from the north-northwest";"2";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"18.01.2021 03:00";"21.0";"760.0";"760.5";"73";"Wind blowing from the north-east";"2";"";"";"";"No Significant Clouds";"10.0 and more";"16.0";
+"18.01.2021 02:30";"21.0";"760.0";"760.5";"69";"Wind blowing from the east-northeast";"3";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"18.01.2021 02:00";"21.0";"760.7";"761.2";"69";"Wind blowing from the east";"3";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"18.01.2021 01:30";"21.0";"760.7";"761.2";"69";"Wind blowing from the east";"3";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"18.01.2021 01:00";"21.0";"760.7";"761.2";"69";"Wind blowing from the east";"4";"";"";"";"Few clouds (10-30%) 1020 m, broken clouds (60-90%) 1500 m";"10.0 and more";"15.0";
+"18.01.2021 00:30";"22.0";"760.7";"761.2";"65";"Wind blowing from the east-southeast";"4";"";"";"";"Few clouds (10-30%) 960 m, broken clouds (60-90%) 1440 m";"10.0 and more";"15.0";
+"18.01.2021 00:00";"22.0";"760.7";"761.2";"65";"Wind blowing from the east-southeast";"4";"";"";"";"Few clouds (10-30%) 1020 m, broken clouds (60-90%) 1320 m";"10.0 and more";"15.0";

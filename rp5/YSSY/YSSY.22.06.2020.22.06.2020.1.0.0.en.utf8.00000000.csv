@@ -1,0 +1,56 @@
+# Weather station Sydney (airport), Australia, METAR=YSSY,selection from 22.06.2020 till 22.06.2020, all days
+# Encoding: UTF-8
+# The data is provided by the website "Reliable Prognosis", rp5.ru
+# If you use the data, please indicate the name of the website.
+# For meteorological parameters see the address http://rp5.ru/metar.php?metar=YSSY&lang=en
+#
+"Local time in Sydney (airport)";"T";"P0";"P";"U";"DD";"Ff";"ff10";"WW";"W'W'";"c";"VV";"Td";
+"22.06.2020 23:30";"11.0";"757.7";"758.2";"58";"Wind blowing from the west-northwest";"6";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"22.06.2020 23:00";"11.0";"757.7";"758.2";"58";"Wind blowing from the west";"7";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"22.06.2020 22:30";"11.0";"757.7";"758.2";"62";"Wind blowing from the west";"8";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"22.06.2020 22:00";"11.0";"757.7";"758.2";"58";"Wind blowing from the west";"8";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"22.06.2020 21:30";"11.0";"757.7";"758.2";"62";"Wind blowing from the west";"7";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"22.06.2020 21:00";"11.0";"757.7";"758.2";"58";"Wind blowing from the west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"22.06.2020 20:30";"12.0";"757.7";"758.2";"54";"Wind blowing from the west-northwest";"5";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"22.06.2020 20:00";"12.0";"757.7";"758.2";"58";"Wind blowing from the west";"6";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"22.06.2020 19:30";"12.0";"757.2";"757.7";"58";"Wind blowing from the west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"22.06.2020 19:00";"12.0";"757.2";"757.7";"58";"Wind blowing from the west-southwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"22.06.2020 18:30";"13.0";"757.2";"757.7";"55";"Wind blowing from the west-southwest";"5";"";"";"";"Few clouds (10-30%) 900 m, scattered clouds (40-50%) 7500 m";"10.0 and more";"4.0";
+"22.06.2020 18:00";"13.0";"756.4";"756.9";"51";"Wind blowing from the west-southwest";"5";"";"";"";"Few clouds (10-30%) 1200 m";"10.0 and more";"3.0";
+"22.06.2020 17:30";"14.0";"756.4";"756.9";"48";"Wind blowing from the west-southwest";"6";"";"";"";"Few clouds (10-30%) 1200 m";"10.0 and more";"3.0";
+"22.06.2020 17:00";"15.0";"755.7";"756.2";"45";"Wind blowing from the west-southwest";"8";"";"";"";"Few clouds (10-30%) 1200 m";"10.0 and more";"3.0";
+"22.06.2020 16:30";"15.0";"755.7";"756.2";"48";"Wind blowing from the west-southwest";"9";"";"";"";"Few clouds (10-30%) 1200 m, scattered clouds (40-50%) 1650 m";"10.0 and more";"4.0";
+"22.06.2020 16:06";"15.0";"755.7";"756.2";"45";"Wind blowing from the west-southwest";"8";"13";"";"";"Few clouds (10-30%) 1200 m, scattered clouds (40-50%) 1800 m";"10.0 and more";"3.0";
+"22.06.2020 16:00";"15.0";"755.7";"756.2";"48";"Wind blowing from the south-west";"6";"";"";"";"Scattered clouds (40-50%) 1200 m, scattered clouds (40-50%) 1800 m";"10.0 and more";"4.0";
+"22.06.2020 15:30";"15.0";"755.7";"756.2";"48";"Wind blowing from the west-southwest";"6";"";"";"";"Few clouds (10-30%) 1200 m, scattered clouds (40-50%) 1500 m";"10.0 and more";"4.0";
+"22.06.2020 15:00";"15.0";"755.7";"756.2";"51";"Wind blowing from the west-southwest";"6";"";"";"";"Scattered clouds (40-50%) 1200 m, scattered clouds (40-50%) 1500 m";"10.0 and more";"5.0";
+"22.06.2020 14:30";"17.0";"755.7";"756.2";"52";"Wind blowing from the west-southwest";"6";"";"";"";"Few clouds (10-30%) 1200 m, scattered clouds (40-50%) 1500 m";"10.0 and more";"7.0";
+"22.06.2020 14:00";"17.0";"755.7";"756.2";"49";"Wind blowing from the west";"6";"";"";"";"Scattered clouds (40-50%) 1200 m, scattered clouds (40-50%) 1500 m";"10.0 and more";"6.0";
+"22.06.2020 13:30";"15.0";"755.7";"756.2";"51";"Wind blowing from the west";"6";"";"";"";"Few clouds (10-30%) 1200 m";"10.0 and more";"5.0";
+"22.06.2020 13:00";"16.0";"756.4";"756.9";"48";"Wind blowing from the west";"5";"";"";"";"Few clouds (10-30%) 900 m, scattered clouds (40-50%) 3300 m";"10.0 and more";"5.0";
+"22.06.2020 12:30";"15.0";"756.4";"756.9";"59";"Wind blowing from the west";"5";"";"";"";"Few clouds (10-30%) 900 m, scattered clouds (40-50%) 3300 m";"10.0 and more";"7.0";
+"22.06.2020 12:00";"14.0";"757.2";"757.7";"59";"Wind blowing from the west";"5";"";"";"";"Few clouds (10-30%) 900 m, scattered clouds (40-50%) 1800 m, broken clouds (60-90%) 3000 m";"10.0 and more";"6.0";
+"22.06.2020 11:30";"14.0";"757.2";"757.7";"59";"Wind blowing from the west-northwest";"5";"";"";"";"Few clouds (10-30%) 900 m, scattered clouds (40-50%) 2100 m, broken clouds (60-90%) 3000 m";"10.0 and more";"6.0";
+"22.06.2020 11:00";"14.0";"757.2";"757.7";"63";"Wind blowing from the west-northwest";"4";"";"";"";"Few clouds (10-30%) 600 m, broken clouds (60-90%) 2400 m";"10.0 and more";"7.0";
+"22.06.2020 10:30";"12.0";"757.2";"757.7";"67";"Wind blowing from the north-west";"6";"";"";"";"Overcast (100%) 2700 m";"10.0 and more";"6.0";
+"22.06.2020 10:00";"11.0";"757.2";"757.7";"72";"Wind blowing from the west-northwest";"6";"";"";"";"Few clouds (10-30%) 600 m, broken clouds (60-90%) 2400 m";"10.0 and more";"6.0";
+"22.06.2020 09:30";"10.0";"757.2";"757.7";"76";"Wind blowing from the west";"6";"";"";"";"Few clouds (10-30%) 900 m, scattered clouds (40-50%) 1800 m, broken clouds (60-90%) 3000 m";"10.0 and more";"6.0";
+"22.06.2020 09:00";"10.0";"757.2";"757.7";"76";"Wind blowing from the west";"5";"";"";"";"Few clouds (10-30%) 900 m, scattered clouds (40-50%) 1800 m, broken clouds (60-90%) 2700 m";"10.0 and more";"6.0";
+"22.06.2020 08:30";"10.0";"756.4";"756.9";"76";"Wind blowing from the west";"5";"";"";"";"Few clouds (10-30%) 900 m, broken clouds (60-90%) 2700 m";"10.0 and more";"6.0";
+"22.06.2020 08:00";"9.0";"756.4";"756.9";"76";"Wind blowing from the west";"3";"";"";"";"Few clouds (10-30%) 900 m, scattered clouds (40-50%) 3000 m, broken clouds (60-90%) 3300 m";"10.0 and more";"5.0";
+"22.06.2020 07:30";"9.0";"756.4";"756.9";"76";"Wind blowing from the west";"3";"";"";"";"Few clouds (10-30%) 900 m, broken clouds (60-90%) 3000 m";"10.0 and more";"5.0";
+"22.06.2020 07:00";"9.0";"756.4";"756.9";"76";"Wind blowing from the north-northwest";"2";"";"";"";"Few clouds (10-30%) 900 m, scattered clouds (40-50%) 3600 m";"10.0 and more";"5.0";
+"22.06.2020 06:30";"9.0";"756.4";"756.9";"76";"Wind blowing from the west-northwest";"2";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"22.06.2020 06:00";"8.0";"755.6";"756.2";"82";"Wind blowing from the west";"2";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"22.06.2020 05:30";"9.0";"755.7";"756.2";"76";"Wind blowing from the west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"22.06.2020 05:00";"9.0";"756.4";"756.9";"76";"Wind blowing from the west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"22.06.2020 04:30";"9.0";"756.4";"756.9";"76";"Wind blowing from the west-southwest";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"22.06.2020 04:00";"10.0";"756.4";"756.9";"71";"Wind blowing from the west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"22.06.2020 03:30";"10.0";"756.4";"756.9";"71";"Wind blowing from the west-northwest";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"22.06.2020 03:00";"10.0";"756.4";"756.9";"67";"Wind blowing from the north-west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"22.06.2020 02:30";"12.0";"756.4";"756.9";"63";"Wind blowing from the north-west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"22.06.2020 02:00";"12.0";"756.4";"756.9";"63";"Wind blowing from the north-west";"6";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"22.06.2020 01:30";"11.0";"757.2";"757.7";"67";"Wind blowing from the west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"22.06.2020 01:00";"11.0";"757.2";"757.7";"67";"Wind blowing from the west-northwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"22.06.2020 00:30";"12.0";"757.2";"757.7";"63";"Wind blowing from the west-northwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"22.06.2020 00:00";"12.0";"757.2";"757.7";"67";"Wind blowing from the west-northwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";

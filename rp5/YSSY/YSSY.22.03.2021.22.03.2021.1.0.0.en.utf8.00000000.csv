@@ -1,0 +1,63 @@
+# Weather station Sydney (airport), Australia, METAR=YSSY,selection from 22.03.2021 till 22.03.2021, all days
+# Encoding: UTF-8
+# The data is provided by the website "Reliable Prognosis", rp5.ru
+# If you use the data, please indicate the name of the website.
+# For meteorological parameters see the address http://rp5.ru/metar.php?metar=YSSY&lang=en
+#
+"Local time in Sydney (airport)";"T";"P0";"P";"U";"DD";"Ff";"ff10";"WW";"W'W'";"c";"VV";"Td";
+"22.03.2021 23:30";"19.0";"762.3";"762.8";"88";"Wind blowing from the north-northeast";"9";"";"Rain";"";"Broken clouds (60-90%) 420 m, broken clouds (60-90%) 600 m, broken clouds (60-90%) 1200 m";"9.0";"17.0";
+"22.03.2021 23:00";"19.0";"763.0";"763.5";"94";"Wind blowing from the north-northeast";"6";"";"Light rain";"";"Broken clouds (60-90%) 420 m, broken clouds (60-90%) 900 m, broken clouds (60-90%) 1500 m";"9.0";"18.0";
+"22.03.2021 22:30";"19.0";"763.0";"763.5";"94";"Wind blowing from the north-northeast";"4";"";"Rain";"";"Broken clouds (60-90%) 390 m, broken clouds (60-90%) 600 m, broken clouds (60-90%) 1200 m";"9.0";"18.0";
+"22.03.2021 22:14";"19.0";"763.0";"763.5";"94";"Wind blowing from the north-northeast";"4";"";"Light rain";"";"Broken clouds (60-90%) 360 m, broken clouds (60-90%) 900 m, overcast (100%) 1500 m";"9.0";"18.0";
+"22.03.2021 22:00";"19.0";"763.0";"763.5";"88";"Wind blowing from the north-northeast";"4";"";"Light rain";"";"Few clouds (10-30%) 420 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 1500 m";"10.0 and more";"17.0";
+"22.03.2021 21:30";"19.0";"763.0";"763.5";"94";"Wind blowing from the north-northeast";"4";"";"Light rain";"";"Few clouds (10-30%) 360 m, scattered clouds (40-50%) 600 m, overcast (100%) 1350 m";"9.0";"18.0";
+"22.03.2021 21:00";"19.0";"763.8";"764.3";"94";"Wind blowing from the north-northeast";"4";"";"Light rain";"";"Few clouds (10-30%) 360 m, scattered clouds (40-50%) 510 m, broken clouds (60-90%) 1350 m";"10.0 and more";"18.0";
+"22.03.2021 20:30";"19.0";"763.8";"764.3";"94";"Wind blowing from the north-northeast";"4";"";"Light rain";"";"Few clouds (10-30%) 390 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 1350 m";"9.0";"18.0";
+"22.03.2021 20:00";"19.0";"763.8";"764.3";"94";"Wind blowing from the north-northeast";"4";"";"Light rain";"";"Few clouds (10-30%) 450 m, scattered clouds (40-50%) 1200 m, broken clouds (60-90%) 1500 m";"9.0";"18.0";
+"22.03.2021 19:30";"19.0";"763.0";"763.5";"88";"Wind blowing from the north-northeast";"5";"";"Light rain";"";"Few clouds (10-30%) 480 m, scattered clouds (40-50%) 900 m, overcast (100%) 3300 m";"9.0";"17.0";
+"22.03.2021 19:00";"19.0";"763.0";"763.5";"94";"Wind blowing from the north-east";"6";"";"Rain";"";"Scattered clouds (40-50%) 390 m, broken clouds (60-90%) 900 m, broken clouds (60-90%) 1800 m";"8.0";"18.0";
+"22.03.2021 18:48";"18.0";"763.8";"764.3";"94";"Wind blowing from the north-east";"4";"";"Rain";"";"Broken clouds (60-90%) 420 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 900 m";"6.0";"17.0";
+"22.03.2021 18:30";"18.0";"763.8";"764.3";"94";"Wind blowing from the north-east";"4";"";"Light rain";"";"Few clouds (10-30%) 390 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1800 m";"8.0";"17.0";
+"22.03.2021 18:00";"18.0";"763.8";"764.3";"94";"Wind blowing from the north-east";"3";"";"Light rain";"";"Few clouds (10-30%) 450 m, scattered clouds (40-50%) 900 m, overcast (100%) 3600 m";"8.0";"17.0";
+"22.03.2021 17:30";"18.0";"763.8";"764.3";"94";"Wind blowing from the north-northeast";"5";"";"Light rain";"";"Scattered clouds (40-50%) 420 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 1200 m";"8.0";"17.0";
+"22.03.2021 17:00";"19.0";"763.8";"764.3";"94";"Wind blowing from the north-east";"4";"";"Light rain";"";"Scattered clouds (40-50%) 420 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 1500 m";"10.0 and more";"18.0";
+"22.03.2021 16:30";"18.0";"763.8";"764.3";"94";"Wind blowing from the east-northeast";"5";"";"Rain";"";"Few clouds (10-30%) 450 m, scattered clouds (40-50%) 600 m, broken clouds (60-90%) 1500 m";"6.0";"17.0";
+"22.03.2021 16:00";"20.0";"763.8";"764.3";"88";"Wind blowing from the north-northeast";"5";"";"Light rain";"";"Few clouds (10-30%) 450 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1200 m";"9.0";"18.0";
+"22.03.2021 15:30";"20.0";"763.8";"764.3";"94";"Wind blowing from the north-northeast";"6";"";"Light rain";"";"Few clouds (10-30%) 420 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1200 m";"6.0";"19.0";
+"22.03.2021 15:00";"20.0";"763.8";"764.3";"88";"Wind blowing from the north-northeast";"6";"";"Light rain";"";"Few clouds (10-30%) 300 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 2250 m";"10.0 and more";"18.0";
+"22.03.2021 14:30";"20.0";"764.5";"765.0";"88";"Wind blowing from the north-northeast";"6";"";"Light rain";"";"Scattered clouds (40-50%) 1050 m, broken clouds (60-90%) 3000 m";"10.0 and more";"18.0";
+"22.03.2021 14:00";"20.0";"764.5";"765.0";"88";"Wind blowing from the north-northeast";"7";"";"Light rain";"";"Scattered clouds (40-50%) 900 m, broken clouds (60-90%) 3000 m";"10.0 and more";"18.0";
+"22.03.2021 13:30";"20.0";"764.5";"765.0";"88";"Wind blowing from the north-northeast";"5";"";"Light rain";"";"Few clouds (10-30%) 300 m, scattered clouds (40-50%) 1050 m, broken clouds (60-90%) 3300 m";"10.0 and more";"18.0";
+"22.03.2021 13:00";"19.0";"765.3";"765.8";"88";"Wind blowing from the north-east";"8";"";"Heavy rain";"";"Few clouds (10-30%) 270 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 1500 m";"5.0";"17.0";
+"22.03.2021 12:30";"20.0";"765.3";"765.8";"88";"Wind blowing from the north-east";"4";"";"Heavy shower(s), rain";"";"Scattered clouds (40-50%) 240 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1200 m";"4.0";"18.0";
+"22.03.2021 12:00";"20.0";"765.3";"765.8";"88";"Wind blowing from the north-east";"4";"";"Light rain";"";"Few clouds (10-30%) 450 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 2250 m";"10.0 and more";"18.0";
+"22.03.2021 11:30";"20.0";"766.1";"766.6";"83";"Wind blowing from the north-northeast";"5";"";"Light rain";"";"Scattered clouds (40-50%) 900 m, broken clouds (60-90%) 1500 m";"10.0 and more";"17.0";
+"22.03.2021 11:00";"21.0";"766.1";"766.6";"83";"Wind blowing from the north-northeast";"5";"";"Light rain";"";"Few clouds (10-30%) 540 m, scattered clouds (40-50%) 1800 m, broken clouds (60-90%) 3000 m";"10.0 and more";"18.0";
+"22.03.2021 10:00";"20.0";"766.1";"766.6";"88";"Wind blowing from the north";"4";"";"Light rain";"";"Few clouds (10-30%) 540 m, scattered clouds (40-50%) 1650 m, broken clouds (60-90%) 3000 m";"10.0 and more";"18.0";
+"22.03.2021 09:30";"19.0";"766.8";"767.3";"94";"Wind blowing from the north-northeast";"5";"";"Light rain";"";"Few clouds (10-30%) 270 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1950 m";"10.0 and more";"18.0";
+"22.03.2021 09:00";"20.0";"766.8";"767.3";"88";"Wind blowing from the north-northeast";"6";"";"Light rain";"";"Few clouds (10-30%) 300 m, scattered clouds (40-50%) 660 m, broken clouds (60-90%) 1950 m";"9.0";"18.0";
+"22.03.2021 08:43";"19.0";"766.8";"767.3";"94";"Wind blowing from the north-northeast";"4";"";"Rain";"";"Scattered clouds (40-50%) 720 m, scattered clouds (40-50%) 1080 m, broken clouds (60-90%) 1380 m";"6.0";"18.0";
+"22.03.2021 08:30";"19.0";"766.8";"767.3";"94";"Wind blowing from the north-northeast";"6";"";"Light rain";"";"Few clouds (10-30%) 450 m, scattered clouds (40-50%) 600 m, broken clouds (60-90%) 1800 m";"8.0";"18.0";
+"22.03.2021 08:00";"20.0";"766.1";"766.6";"88";"Wind blowing from the north";"5";"";"Light rain";"";"Few clouds (10-30%) 450 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1950 m";"9.0";"18.0";
+"22.03.2021 07:30";"20.0";"766.1";"766.6";"88";"Wind blowing from the north";"5";"";"Light rain";"";"Few clouds (10-30%) 300 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1800 m";"7.0";"18.0";
+"22.03.2021 07:00";"20.0";"766.1";"766.6";"94";"Wind blowing from the north";"5";"";"Light rain";"";"Few clouds (10-30%) 270 m, scattered clouds (40-50%) 330 m, broken clouds (60-90%) 600 m";"6.0";"19.0";
+"22.03.2021 06:30";"19.0";"766.1";"766.6";"94";"Wind blowing from the north-northeast";"5";"";"Light rain";"";"Scattered clouds (40-50%) 270 m, scattered clouds (40-50%) 420 m, broken clouds (60-90%) 750 m";"6.0";"18.0";
+"22.03.2021 06:00";"19.0";"766.1";"766.6";"94";"Wind blowing from the north-east";"5";"";"Rain";"";"Few clouds (10-30%) 270 m, scattered clouds (40-50%) 420 m, broken clouds (60-90%) 750 m";"6.0";"18.0";
+"22.03.2021 05:30";"19.0";"765.3";"765.8";"94";"Wind blowing from the north";"6";"";"Rain";"";"Scattered clouds (40-50%) 300 m, broken clouds (60-90%) 450 m, broken clouds (60-90%) 900 m";"6.0";"18.0";
+"22.03.2021 05:09";"20.0";"765.3";"765.8";"94";"Wind blowing from the north";"5";"";"Rain";"";"Scattered clouds (40-50%) 210 m, broken clouds (60-90%) 390 m, broken clouds (60-90%) 600 m";"5.0";"19.0";
+"22.03.2021 05:00";"19.0";"765.3";"765.8";"100";"Wind blowing from the north";"6";"";"Rain";"";"Scattered clouds (40-50%) 210 m, broken clouds (60-90%) 300 m, broken clouds (60-90%) 600 m";"7.0";"19.0";
+"22.03.2021 04:51";"20.0";"765.3";"765.8";"94";"Wind blowing from the north";"5";"";"Rain";"";"Scattered clouds (40-50%) 300 m, broken clouds (60-90%) 450 m, broken clouds (60-90%) 600 m";"8.0";"19.0";
+"22.03.2021 04:33";"19.0";"765.3";"765.8";"100";"Wind blowing from the north-northeast";"6";"";"Heavy rain";"";"Few clouds (10-30%) 300 m, broken clouds (60-90%) 480 m, overcast (100%) 750 m";"3.0";"19.0";
+"22.03.2021 04:30";"20.0";"765.3";"765.8";"94";"Wind blowing from the east-northeast";"12";"";"Heavy rain";"";"Few clouds (10-30%) 300 m, scattered clouds (40-50%) 480 m, overcast (100%) 750 m";"4.0";"19.0";
+"22.03.2021 04:15";"20.0";"766.1";"766.6";"94";"Wind blowing from the east-northeast";"9";"14";"Rain";"";"Few clouds (10-30%) 300 m, scattered clouds (40-50%) 540 m, broken clouds (60-90%) 900 m";"5.0";"19.0";
+"22.03.2021 04:00";"20.0";"765.3";"765.8";"94";"Wind blowing from the north-east";"3";"";"Light rain";"";"Few clouds (10-30%) 540 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 2400 m";"10.0 and more";"19.0";
+"22.03.2021 03:30";"20.0";"766.1";"766.6";"94";"Wind blowing from the north-northeast";"3";"";"Drizzle";"";"Few clouds (10-30%) 600 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 2400 m";"10.0 and more";"19.0";
+"22.03.2021 03:00";"20.0";"766.1";"766.6";"94";"Wind blowing from the north-northeast";"4";"";"Drizzle";"";"Few clouds (10-30%) 600 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 2400 m";"10.0 and more";"19.0";
+"22.03.2021 02:30";"21.0";"766.8";"767.3";"88";"Wind blowing from the north-east";"5";"";"Light rain";"";"Few clouds (10-30%) 540 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 2400 m";"10.0 and more";"19.0";
+"22.03.2021 02:00";"20.0";"766.8";"767.3";"94";"Wind blowing from the east-northeast";"7";"";"Light rain";"";"Few clouds (10-30%) 540 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1800 m";"8.0";"19.0";
+"22.03.2021 01:46";"20.0";"766.8";"767.3";"88";"Wind blowing from the east-northeast";"8";"13";"Rain";"";"Few clouds (10-30%) 540 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1800 m";"6.0";"18.0";
+"22.03.2021 01:30";"21.0";"766.8";"767.3";"88";"Wind blowing from the east-northeast";"7";"";"Light rain";"";"Few clouds (10-30%) 600 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 2400 m";"10.0 and more";"19.0";
+"22.03.2021 01:00";"20.0";"766.8";"767.3";"88";"Wind blowing from the east-northeast";"8";"";"Light rain";"";"Few clouds (10-30%) 510 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 1800 m";"9.0";"18.0";
+"22.03.2021 00:41";"20.0";"766.8";"767.3";"88";"Wind blowing from the east-northeast";"7";"";"Rain";"";"Few clouds (10-30%) 600 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 1500 m";"6.0";"18.0";
+"22.03.2021 00:30";"20.0";"766.8";"767.3";"88";"Wind blowing from the east-northeast";"9";"";"Rain";"";"Few clouds (10-30%) 600 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 1350 m";"6.0";"18.0";
+"22.03.2021 00:00";"21.0";"767.6";"768.1";"83";"Wind blowing from the east-northeast";"8";"";"Light rain";"";"Few clouds (10-30%) 540 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1500 m";"10.0 and more";"18.0";

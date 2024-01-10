@@ -1,0 +1,55 @@
+# Weather station Sydney (airport), Australia, METAR=YSSY,selection from 05.07.2021 till 05.07.2021, all days
+# Encoding: UTF-8
+# The data is provided by the website "Reliable Prognosis", rp5.ru
+# If you use the data, please indicate the name of the website.
+# For meteorological parameters see the address http://rp5.ru/metar.php?metar=YSSY&lang=en
+#
+"Local time in Sydney (airport)";"T";"P0";"P";"U";"DD";"Ff";"ff10";"WW";"W'W'";"c";"VV";"Td";
+"05.07.2021 23:30";"9.0";"764.4";"765.0";"66";"Wind blowing from the west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"05.07.2021 23:00";"10.0";"764.4";"765.0";"58";"Wind blowing from the west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 22:30";"10.0";"764.4";"765.0";"62";"Wind blowing from the west-southwest";"7";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"05.07.2021 22:00";"10.0";"764.4";"765.0";"62";"Wind blowing from the west-southwest";"8";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"05.07.2021 21:30";"11.0";"764.4";"765.0";"58";"Wind blowing from the west-southwest";"8";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"05.07.2021 21:00";"12.0";"764.5";"765.0";"54";"Wind blowing from the west-southwest";"7";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"05.07.2021 20:30";"12.0";"764.5";"765.0";"51";"Wind blowing from the west-southwest";"7";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 20:00";"13.0";"763.8";"764.3";"47";"Wind blowing from the west-southwest";"6";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 19:30";"13.0";"763.8";"764.3";"47";"Wind blowing from the west-southwest";"5";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 19:00";"13.0";"763.8";"764.3";"47";"Wind blowing from the west-southwest";"5";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 18:30";"13.0";"763.0";"763.5";"47";"Wind blowing from the west-southwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 18:00";"15.0";"763.0";"763.5";"42";"Wind blowing from the west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 17:30";"15.0";"763.0";"763.5";"42";"Wind blowing from the west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 17:00";"15.0";"763.0";"763.5";"45";"Wind blowing from the south-southwest";"3";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"05.07.2021 16:30";"16.0";"763.0";"763.5";"39";"Wind blowing from the south";"3";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 16:00";"16.0";"763.0";"763.5";"42";"Wind blowing from the west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"05.07.2021 15:30";"16.0";"763.0";"763.5";"39";"Wind blowing from the west-southwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 15:00";"16.0";"763.0";"763.5";"45";"Wind blowing from the west-southwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"05.07.2021 14:30";"16.0";"763.0";"763.5";"45";"Wind blowing from the south-west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"05.07.2021 14:00";"15.0";"763.0";"763.5";"51";"Wind blowing from the west-southwest";"5";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"05.07.2021 13:30";"16.0";"763.8";"764.3";"48";"Wind blowing from the west-southwest";"5";"";"";"";"Few clouds (10-30%) 1440 m";"10.0 and more";"5.0";
+"05.07.2021 13:00";"15.0";"763.8";"764.3";"48";"Wind blowing from the west-southwest";"5";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"05.07.2021 12:30";"15.0";"764.5";"765.0";"48";"Wind blowing from the west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"05.07.2021 12:00";"14.0";"764.5";"765.0";"51";"Wind blowing from the west";"6";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"05.07.2021 11:30";"14.0";"764.5";"765.0";"55";"Wind blowing from the west-southwest";"6";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"05.07.2021 11:00";"13.0";"765.3";"765.8";"55";"Wind blowing from the west-southwest";"8";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"05.07.2021 10:30";"12.0";"765.2";"765.8";"58";"Wind blowing from the west-southwest";"7";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"05.07.2021 10:00";"12.0";"765.2";"765.8";"58";"Wind blowing from the west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"05.07.2021 09:30";"11.0";"765.2";"765.8";"62";"Wind blowing from the north-west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"05.07.2021 09:00";"10.0";"765.2";"765.8";"67";"Wind blowing from the north-northwest";"5";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"05.07.2021 08:30";"8.0";"764.4";"765.0";"71";"Wind blowing from the north";"3";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"05.07.2021 08:00";"8.0";"764.4";"765.0";"71";"Wind blowing from the west";"6";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"05.07.2021 07:30";"8.0";"764.4";"765.0";"71";"Wind blowing from the west";"7";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"05.07.2021 07:00";"8.0";"763.7";"764.3";"71";"Wind blowing from the west";"7";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"05.07.2021 06:30";"8.0";"763.7";"764.3";"71";"Wind blowing from the north-northwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"05.07.2021 06:00";"8.0";"763.7";"764.3";"66";"Wind blowing from the west-northwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 05:30";"7.0";"763.7";"764.3";"71";"Wind blowing from the west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 05:00";"7.0";"763.7";"764.3";"71";"Wind blowing from the west-northwest";"5";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 04:30";"7.0";"764.4";"765.0";"71";"Wind blowing from the west-northwest";"5";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 04:00";"7.0";"764.4";"765.0";"71";"Wind blowing from the west-northwest";"5";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 03:30";"7.0";"764.4";"765.0";"71";"Wind blowing from the west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 03:00";"8.0";"764.4";"765.0";"66";"Wind blowing from the west";"6";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 02:30";"8.0";"764.4";"765.0";"66";"Wind blowing from the west";"6";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 02:00";"8.0";"764.4";"765.0";"62";"Wind blowing from the north-west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"1.0";
+"05.07.2021 01:30";"8.0";"764.4";"765.0";"66";"Wind blowing from the west-northwest";"5";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";
+"05.07.2021 01:00";"8.0";"765.2";"765.8";"62";"Wind blowing from the west-northwest";"5";"";"";"";"No Significant Clouds";"10.0 and more";"1.0";
+"05.07.2021 00:30";"8.0";"765.2";"765.8";"62";"Wind blowing from the west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"1.0";
+"05.07.2021 00:00";"9.0";"765.2";"765.8";"62";"Wind blowing from the west";"5";"";"";"";"No Significant Clouds";"10.0 and more";"2.0";

@@ -1,0 +1,55 @@
+# Weather station Sydney (airport), Australia, METAR=YSSY,selection from 28.09.2020 till 28.09.2020, all days
+# Encoding: UTF-8
+# The data is provided by the website "Reliable Prognosis", rp5.ru
+# If you use the data, please indicate the name of the website.
+# For meteorological parameters see the address http://rp5.ru/metar.php?metar=YSSY&lang=en
+#
+"Local time in Sydney (airport)";"T";"P0";"P";"U";"DD";"Ff";"ff10";"WW";"W'W'";"c";"VV";"Td";
+"28.09.2020 23:30";"14.0";"769.9";"770.4";"67";"Wind blowing from the east-southeast";"4";"";"";"";"Broken clouds (60-90%) 960 m";"10.0 and more";"8.0";
+"28.09.2020 23:00";"14.0";"769.9";"770.4";"67";"Wind blowing from the east-southeast";"4";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"28.09.2020 22:30";"14.0";"769.9";"770.4";"63";"Wind blowing from the east-southeast";"4";"";"";"";"No Significant Clouds";"10.0 and more";"7.0";
+"28.09.2020 22:00";"14.0";"769.1";"769.6";"63";"Wind blowing from the east-southeast";"4";"";"";"";"Few clouds (10-30%) 900 m";"10.0 and more";"7.0";
+"28.09.2020 21:30";"14.0";"769.1";"769.6";"59";"Wind blowing from the east";"4";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"28.09.2020 21:00";"14.0";"769.1";"769.6";"63";"Wind blowing from the east";"4";"";"";"";"No Significant Clouds";"10.0 and more";"7.0";
+"28.09.2020 20:30";"15.0";"769.1";"769.6";"55";"Wind blowing from the east";"4";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"28.09.2020 20:00";"15.0";"768.4";"768.9";"55";"Wind blowing from the east";"4";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"28.09.2020 19:30";"15.0";"768.4";"768.9";"55";"Wind blowing from the east-northeast";"5";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"28.09.2020 19:00";"16.0";"768.4";"768.9";"52";"Wind blowing from the east-northeast";"5";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"28.09.2020 18:30";"17.0";"767.6";"768.1";"49";"Wind blowing from the east-northeast";"6";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"28.09.2020 18:00";"17.0";"767.6";"768.1";"49";"Wind blowing from the east-northeast";"7";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"28.09.2020 17:30";"18.0";"767.6";"768.1";"46";"Wind blowing from the north-east";"7";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"28.09.2020 17:00";"18.0";"767.6";"768.1";"43";"Wind blowing from the north-east";"8";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 16:30";"18.0";"767.6";"768.1";"46";"Wind blowing from the north-east";"7";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"28.09.2020 16:00";"18.0";"767.6";"768.1";"43";"Wind blowing from the east-northeast";"6";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 15:30";"18.0";"767.6";"768.1";"46";"Wind blowing from the north-east";"6";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"28.09.2020 15:00";"18.0";"767.6";"768.1";"46";"Wind blowing from the east-northeast";"6";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"28.09.2020 14:30";"19.0";"767.6";"768.1";"46";"Wind blowing from the east";"7";"";"";"";"No Significant Clouds";"10.0 and more";"7.0";
+"28.09.2020 14:00";"19.0";"768.4";"768.9";"40";"Wind blowing from the east";"7";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 13:30";"18.0";"768.4";"768.9";"43";"Wind blowing from the east-northeast";"5";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 13:00";"17.0";"768.4";"768.9";"42";"Wind blowing from the south-east";"5";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"28.09.2020 12:30";"18.0";"769.1";"769.6";"37";"Wind blowing from the west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"28.09.2020 12:00";"18.0";"769.1";"769.6";"37";"Wind blowing from the north";"3";"";"";"";"No Significant Clouds";"10.0 and more";"3.0";
+"28.09.2020 11:30";"17.0";"769.9";"770.4";"39";"Wind blowing from the west";"3";"";"";"";"Few clouds (10-30%) 1350 m";"10.0 and more";"3.0";
+"28.09.2020 11:00";"18.0";"769.9";"770.4";"43";"Wind blowing from the west";"3";"";"";"";"Few clouds (10-30%) 1320 m";"10.0 and more";"5.0";
+"28.09.2020 10:30";"17.0";"770.6";"771.1";"45";"Wind blowing from the north-northwest";"2";"";"";"";"Few clouds (10-30%) 1350 m";"10.0 and more";"5.0";
+"28.09.2020 10:00";"17.0";"770.6";"771.1";"45";"Wind blowing from the west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 09:30";"15.0";"770.6";"771.1";"48";"Wind blowing from the west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"28.09.2020 09:00";"15.0";"770.6";"771.1";"51";"Wind blowing from the north-west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 08:30";"14.0";"769.9";"770.4";"59";"Wind blowing from the north-west";"2";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"28.09.2020 08:00";"12.0";"769.8";"770.4";"67";"Wind blowing from the north-west";"3";"";"";"";"Few clouds (10-30%) 1350 m";"10.0 and more";"6.0";
+"28.09.2020 07:30";"11.0";"769.8";"770.4";"67";"Wind blowing from the north-northwest";"3";"";"";"";"Few clouds (10-30%) 1350 m";"10.0 and more";"5.0";
+"28.09.2020 07:00";"10.0";"769.0";"769.6";"71";"Wind blowing from the north-west";"3";"";"";"";"Few clouds (10-30%) 1200 m";"10.0 and more";"5.0";
+"28.09.2020 06:30";"10.0";"769.0";"769.6";"71";"Wind blowing from the north-northwest";"3";"";"";"";"Few clouds (10-30%) 750 m";"10.0 and more";"5.0";
+"28.09.2020 06:00";"10.0";"769.0";"769.6";"71";"Wind blowing from the north-west";"3";"";"";"";"Few clouds (10-30%) 750 m";"10.0 and more";"5.0";
+"28.09.2020 05:30";"10.0";"768.3";"768.9";"71";"Wind blowing from the north-northwest";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 05:00";"10.0";"768.3";"768.9";"71";"Wind blowing from the north-west";"2";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 04:30";"10.0";"768.3";"768.9";"71";"Wind blowing from the north-west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 04:00";"10.0";"768.3";"768.9";"71";"Wind blowing from the north-northwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 03:30";"11.0";"768.3";"768.9";"67";"Wind blowing from the north-northwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 03:00";"11.0";"768.3";"768.9";"67";"Wind blowing from the west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 02:30";"12.0";"769.0";"769.6";"63";"Wind blowing from the west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 02:00";"12.0";"769.0";"769.6";"63";"Wind blowing from the west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 01:30";"13.0";"769.0";"769.6";"59";"Wind blowing from the west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 01:00";"12.0";"769.0";"769.6";"63";"Wind blowing from the west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 00:30";"13.0";"769.0";"769.6";"59";"Wind blowing from the west-southwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"28.09.2020 00:00";"13.0";"769.0";"769.6";"59";"Wind blowing from the south";"4";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";

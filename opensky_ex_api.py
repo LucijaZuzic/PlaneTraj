@@ -44,18 +44,6 @@ def get_data(start_airport, end_airport):
     flights_data_frame_conn.to_csv("usable_flights/usable_flights_" + start_airport + "_" + end_airport + ".csv", index = False)
     print(len(flights_data_frame_all)) 
     flights_data_frame_all.to_csv("usable_flights/usable_flights_" + start_airport + ".csv", index = False)
-
-get_data("LDZA", "EGLL")
-get_data("EGLL", "LDZA")
-
-get_data("EDDF", "EDDT")
-get_data("EDDT", "EDDF")
-  
+ 
 get_data("YSSY", "YMML")
-get_data("YMML", "YSSY")
-
-get_data("YBBN", "YSSY")
-get_data("EDDM", "EGLL")
-
-get_data("KJFK", "KLAX")
-get_data("KLAX", "KJFK")
+get_data("YMML", "YSSY") 

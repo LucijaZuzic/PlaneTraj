@@ -38,4 +38,5 @@ epoch_time = datetime(1970, 1, 1)
 
 while dt <= dt_end:
     download_weather("YMML", dt)
+    download_weather("YSSY", dt)
     dt = dt + timedelta(days = 7)
