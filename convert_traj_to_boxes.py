@@ -4,11 +4,12 @@ from utilities import random_colors
 
 lens = 1000
 mini_dim = 1
-maxi_dim = 6
+maxi_dim = 10
 
 x_coords = sorted(np.random.rand(lens))
 y_coords = sorted(np.random.rand(lens))
 z_coords = sorted(np.random.rand(lens))
+z_coords = [1 for x in x_coords]
 
 x_min = min(x_coords)
 x_max = max(x_coords)
@@ -64,14 +65,14 @@ for box_size in box_sizes:
             for py in np.arange(y_start, y_end + box_size, box_size):
                 for pz in np.arange(z_start, z_end + box_size, box_size): 
 
-                    x_box = px // box_size
-                    y_box = py // box_size
-                    z_box = pz // box_size
+                    x_box = int(px // box_size)
+                    y_box = int(py // box_size)
+                    z_box = int(pz // box_size)
 
                     if (x_box, y_box, z_box) not in dict_boxes:
                         dict_boxes[(x_box, y_box, z_box)] = []
                     else:
-                        dict_boxes[(x_box, y_box, z_box)].append((py, py, pz))
+                        dict_boxes[(x_box, y_box, z_box)].append((px, py, pz))
 
                     used_boxes.add((x_box, y_box, z_box))
                     used_x.add(x_box)
@@ -89,7 +90,7 @@ for box_size in box_sizes:
     if len(dict_boxes) < 10:
         for bx in dict_boxes:
             print(bx, len(dict_boxes[bx]))
-  
+
     fig = plt.figure()
     ax = plt.axes(projection='3d')
    
@@ -102,7 +103,8 @@ for box_size in box_sizes:
             plt.plot(const_v1, const_v2, zs = rising, color = "blue")
             plt.plot(const_v1, rising, zs = const_v2, color = "green")
             plt.plot(rising, const_v1, zs = const_v2, color = "yellow")
-
+    '''
+  
     for box in used_boxes:
 
         x_min_val, y_min_val, z_min_val = box
@@ -135,7 +137,6 @@ for box_size in box_sizes:
         plt.plot(x_range, y_min_const, zs = z_max_const, color = "blue")
         plt.plot(x_range, y_max_const, zs = z_min_const, color = "blue")
         plt.plot(x_range, y_max_const, zs = z_max_const, color = "blue")
-    '''
  
     plt.plot(x_coords, y_coords, zs = z_coords, color = "red")
     plt.show()  
