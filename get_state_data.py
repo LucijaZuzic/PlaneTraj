@@ -21,8 +21,9 @@ for link_one in soup_one.find_all('a'):
             filename_to_save = "states_" + link_one_href[2:] + "-" + h_str + ".csv.tar"
             if not os.path.isdir(dir_to_save):
                 os.makedirs(dir_to_save)
+            else:
+                continue
             file_csv_url = url_two + "/" + h_str + "/states_" + link_one_href[2:] + "-" + h_str + ".csv.tar"
             print(file_csv_url)  
             print(dir_to_save + "/" + filename_to_save)  
             urlretrieve(file_csv_url, dir_to_save + "/" + filename_to_save)
-        break
