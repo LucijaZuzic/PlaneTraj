@@ -11,7 +11,7 @@ def download_weather(airport, datetime_obj):
 
     end_url = ".en.utf8.00000000.csv.gz"
     headers_use = {
-        #GET /download/files.metar/YM/YMML.26.09.2013.26.09.2013.3.9.26.en.utf8.00000000.csv.gz HTTP/1.1
+        #GET /download/files.metar/YM/YMML.26.09.2013.26.09.2013.1.0.0.en.utf8.00000000.csv.gz HTTP/1.1
         "Accept": "text/html,application/xhtml+xml, application/xml;q=0.9, image/avif, image/webp,image/apng, */*;q=0.8, application/signed-exchange;v=b3;q=0.7",
         "Accept-Encoding": "gzip, deflate, br",
         "Accept-Language": "hr-HR,hr;q=0.9,en-GB;q=0.8,en-US;q=0.7,en;q=0.6",
@@ -38,7 +38,7 @@ def download_weather(airport, datetime_obj):
     if day_str[0] == "0":
         day_str = day_str[1:]
 
-    start_of_filename = airport + "." + date_str + "." + date_str + ".3." + month_str + "." + day_str
+    start_of_filename = airport + "." + date_str + "." + date_str + ".1.0.0" 
 
     filename_to_save = start_of_filename + end_url
 
@@ -54,6 +54,8 @@ def download_weather(airport, datetime_obj):
             os.makedirs("rp5/" + airport) 
 
         respo = requests.get(url, headers = headers_use)
+
+        print(respo.content)
 
         with open(dir_to_save + "/" + filename_to_save, 'wb') as out_file:
             shutil.copyfileobj(respo.raw, out_file)
@@ -72,3 +74,4 @@ epoch_time = datetime(1970, 1, 1)
 while dt <= dt_end:
     download_weather("YMML", dt)
     dt = dt + timedelta(days = 7)
+    break
