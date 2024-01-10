@@ -1,26 +1,61 @@
 import opensky_api 
+import pandas as pd
+import os
 from datetime import datetime, timedelta
-dt = datetime(day = 8, month = 10, year = 2023)
-dt_end = datetime(day = 8, month = 1, year = 2024)
-epoch_time = datetime(1970, 1, 1)
+  
+def get_data(start_airport, end_airport):
 
-found = False
-opensky = opensky_api.OpenSkyApi("lzuzic", "uGJp64kA") 
-while dt < dt_end:
-    start_sec = int((dt - epoch_time).total_seconds())
-    end_sec = start_sec + 24 * 3600
-    data_res = opensky.get_departures_by_airport("EGLL", start_sec, end_sec)
-    #print(data_res)
-    
-    if data_res != None:
-        #print(data_res)
-        for e in data_res:  
-            dict_e = eval(str(e)) 
-            print(dict_e["estArrivalAirport"])
-            if dict_e["estArrivalAirport"] == "EGLL":
-                found = True
-                break 
-            #data_track = opensky.get_track_by_aircraft(dict_e["icao24"], start_sec)
-            #print(data_track) 
-    dt = dt + timedelta(days = 1)
-    print(dt)
+    dt = datetime(day = 25, month = 5, year = 2020)
+    dt_end = datetime(day = 27, month = 6, year = 2022) 
+
+    epoch_time = datetime(1970, 1, 1)
+
+    opensky = opensky_api.OpenSkyApi("lzuzic", "uGJp64kA") 
+
+    flights_data_frame_conn = pd.DataFrame()
+    flights_data_frame_all = pd.DataFrame()
+
+    print(start_airport, end_airport)
+
+    while dt <= dt_end:
+
+        start_sec = int((dt - epoch_time).total_seconds())
+        end_sec = start_sec + 24 * 3600 
+        data_res = opensky.get_departures_by_airport(start_airport, start_sec, end_sec)
+        
+        if data_res != None:
+            for e in data_res:  
+                dict_e = eval(str(e)) 
+                if type(dict_e["callsign"]) == str and len(dict_e["callsign"]) > 0:
+                    dict_e["callsign"] = dict_e["callsign"].strip()
+                for key in dict_e:
+                    dict_e[key] = [dict_e[key]]
+                new_df = pd.DataFrame(dict_e)
+                flights_data_frame_all = pd.concat([flights_data_frame_all, new_df]).drop_duplicates().reset_index(drop = True) 
+                if dict_e["estArrivalAirport"] == [end_airport]:
+                    flights_data_frame_conn = pd.concat([flights_data_frame_conn, new_df]).drop_duplicates().reset_index(drop = True) 
+                
+        dt = dt + timedelta(days = 7)
+
+    if not os.path.isdir("usable_flights"):
+        os.makedirs("usable_flights")
+
+    print(len(flights_data_frame_conn)) 
+    flights_data_frame_conn.to_csv("usable_flights/usable_flights_" + start_airport + "_" + end_airport + ".csv", index = False)
+    print(len(flights_data_frame_all)) 
+    flights_data_frame_all.to_csv("usable_flights/usable_flights_" + start_airport + ".csv", index = False)
+
+get_data("LDZA", "EGLL")
+get_data("EGLL", "LDZA")
+
+get_data("EDDF", "EDDT")
+get_data("EDDT", "EDDF")
+  
+get_data("YSSY", "YMML")
+get_data("YMML", "YSSY")
+
+get_data("YBBN", "YSSY")
+get_data("EDDM", "EGLL")
+
+get_data("KJFK", "KLAX")
+get_data("KLAX", "KJFK")
