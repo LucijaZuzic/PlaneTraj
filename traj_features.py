@@ -4,6 +4,7 @@ import os
 import numpy as np
 from utilities import load_object
 from scipy import stats
+import utm
 
 def fit_rayleigh(arr_fit):
     rayleigh_args = stats.rayleigh.fit(arr_fit)
@@ -16,7 +17,7 @@ def fit_rayleigh(arr_fit):
     rayleigh_fit_x = [x + rayleigh_args[0] + mini for x in rng_vals]
     return rayleigh_args, rayleigh_fit, rayleigh_fit_x
  
-from FractalDimension import fractal_dimension
+from convert_traj_to_boxes import get_fractal_dim_for_coords
 
 ang_limits = dict()
 ang_limits["LDZA"] = [0, 13, 75, 115, 140, 165, 180, 215, 280, 318, 360]
@@ -103,6 +104,16 @@ for first_part in starts:
   
         for i in range(len(longs[first_part][mark])):
 
+            utm_vals = []
+            easting_val = []
+            northing_val = []
+
+            for j in range(len(longs[first_part][mark][i])):
+                utm_val = utm.from_latlon(lats[first_part][mark][i][j], longs[first_part][mark][i][j])
+                utm_vals.append(utm_val)
+                easting_val.append(utm_val[0])
+                northing_val.append(utm_val[1]) 
+
             times[first_part][mark][i] = [t - times[first_part][mark][i][0] for t in times[first_part][mark][i]]
 
             maxdist = len(dfroms[first_part][mark][i])
@@ -113,25 +124,23 @@ for first_part in starts:
             if maxdist == 1:
                 continue
             
-            plt.plot(longs[first_part][mark][i][:maxdist], lats[first_part][mark][i][:maxdist])
+            #plt.plot(longs[first_part][mark][i][:maxdist], lats[first_part][mark][i][:maxdist])
  
             new_arr_dists = []
-            new_arr_velocity = []
-            new_arr_fractal = []
+            new_arr_velocity = [] 
             new_arr_dists_xy = []
-            new_arr_velocity_xy = []
-            new_arr_fractal_xy = []
+            new_arr_velocity_xy = [] 
 
             for j in range(maxdist):
 
                 if j > 0:
 
-                    x_offset_part = longs[first_part][mark][i][j] - longs[first_part][mark][i][j - 1]
-                    y_offset_part = lats[first_part][mark][i][j] - lats[first_part][mark][i][j - 1]
+                    x_offset_part = easting_val[j] - easting_val[j - 1]
+                    y_offset_part = northing_val[j] - northing_val[j - 1]
                     z_offset_part = alts[first_part][mark][i][j] - alts[first_part][mark][i][j - 1] 
                     t_offset_part = (times[first_part][mark][i][j] - times[first_part][mark][i][j - 1]) / 3600
-                    x_offset_part *= 111
-                    y_offset_part *= 111
+                    x_offset_part /= 1000
+                    y_offset_part /= 1000
                     z_offset_part /= 1000
 
                     xy_offset_part = np.sqrt(x_offset_part ** 2 + y_offset_part ** 2)
@@ -142,17 +151,14 @@ for first_part in starts:
                     new_arr_velocity.append(xyz_offset_part / t_offset_part)
                     new_arr_velocity_xy.append(xy_offset_part / t_offset_part)
 
-            new_arr_fractal.append(longs[first_part][mark][i][:maxdist], lats[first_part][mark][i][:maxdist], alts[first_part][mark][i][:maxdist])
-            new_arr_fractal_xy.append(longs[first_part][mark][i][:maxdist], lats[first_part][mark][i][:maxdist], [1 for x in alts[first_part][mark][i][:maxdist]])
-
             diff_dist[first_part][mark].append(sum(new_arr_dists))
             diff_dist_xy[first_part][mark].append(sum(new_arr_dists_xy))
 
-            x_offset = longs[first_part][mark][i][maxdist - 1] - longs[first_part][mark][i][0]
-            y_offset = lats[first_part][mark][i][maxdist - 1] - lats[first_part][mark][i][0]
+            x_offset = easting_val[maxdist - 1] - easting_val[0]
+            y_offset = northing_val[maxdist - 1] - northing_val[0]
             z_offset = alts[first_part][mark][i][maxdist - 1] - alts[first_part][mark][i][0] 
-            x_offset *= 111
-            y_offset *= 111
+            x_offset /= 1000
+            y_offset /= 1000
             z_offset /= 1000
 
             xy_offset = np.sqrt(x_offset ** 2 + y_offset ** 2)
@@ -166,13 +172,11 @@ for first_part in starts:
             velocity[first_part][mark].append(np.average(new_arr_velocity))
             velocity_xy[first_part][mark].append(np.average(new_arr_velocity_xy))
 
-            new_arr_fractal = np.array(new_arr_fractal) 
-            fractal_dims[first_part][mark].append(fractal_dimension(new_arr_fractal)) 
-            new_arr_fractal_xy = np.array(new_arr_fractal_xy) 
-            fractal_dims_xy[first_part][mark].append(fractal_dimension(new_arr_fractal_xy)) 
+            fractal_dims[first_part][mark].append(get_fractal_dim_for_coords(longs[first_part][mark][i][:maxdist], lats[first_part][mark][i][:maxdist], alts[first_part][mark][i][:maxdist]))  
+            fractal_dims_xy[first_part][mark].append(get_fractal_dim_for_coords(longs[first_part][mark][i][:maxdist], lats[first_part][mark][i][:maxdist], [1 for x in alts[first_part][mark][i][:maxdist]])) 
  
-    plt.show()
-    plt.close()
+    #plt.show()
+    #plt.close()
   
     plt.title("Difusion distance")
     plt.hist(diff_dist[first_part][mark], density = True, bins = 100) 
@@ -285,8 +289,7 @@ for first_part in starts:
     plt.axvline(np.quantile(fractal_dims_xy[first_part][mark], 0.5))
     plt.axvline(np.quantile(fractal_dims_xy[first_part][mark], 0.95)) 
     plt.show()
-
-
+ 
     plt.figure()
     ax = plt.gca()
     ax.set_aspect('equal', adjustable = 'box')
