@@ -1,0 +1,60 @@
+# Weather station Melbourne (airport), Australia, METAR=YMML,selection from 14.02.2022 till 14.02.2022, all days
+# Encoding: UTF-8
+# The data is provided by the website "Reliable Prognosis", rp5.ru
+# If you use the data, please indicate the name of the website.
+# For meteorological parameters see the address http://rp5.ru/metar.php?metar=YMML&lang=en
+#
+"Local time in Melbourne (airport)";"T";"P0";"P";"U";"DD";"Ff";"ff10";"WW";"W'W'";"c";"VV";"Td";
+"14.02.2022 23:30";"19.0";"756.5";"767.3";"78";"Wind blowing from the south-southwest";"4";"";"";"";"Broken clouds (60-90%) 420 m";"10.0 and more";"15.0";
+"14.02.2022 23:00";"19.0";"756.5";"767.3";"83";"Wind blowing from the south-southwest";"4";"";"";"";"Broken clouds (60-90%) 420 m";"10.0 and more";"16.0";
+"14.02.2022 22:30";"19.0";"757.3";"768.1";"83";"Wind blowing from the south-southwest";"4";"";"";"";"Broken clouds (60-90%) 390 m";"10.0 and more";"16.0";
+"14.02.2022 22:00";"19.0";"756.5";"767.3";"83";"Wind blowing from the south-southwest";"5";"";"";"";"Broken clouds (60-90%) 390 m";"10.0 and more";"16.0";
+"14.02.2022 21:30";"19.0";"756.5";"767.3";"83";"Wind blowing from the south-southwest";"5";"";"";"";"Broken clouds (60-90%) 420 m";"10.0 and more";"16.0";
+"14.02.2022 21:13";"19.0";"756.5";"767.3";"83";"Wind blowing from the south-southwest";"5";"";"";"";"Broken clouds (60-90%) 420 m";"10.0 and more";"16.0";
+"14.02.2022 21:00";"19.0";"756.5";"767.3";"83";"Wind blowing from the south-southwest";"4";"";"";"";"Few clouds (10-30%) 420 m";"10.0 and more";"16.0";
+"14.02.2022 20:30";"20.0";"755.9";"766.6";"78";"Wind blowing from the south-southwest";"5";"";"";"";"Few clouds (10-30%) 450 m";"10.0 and more";"16.0";
+"14.02.2022 20:00";"21.0";"755.9";"766.6";"69";"Wind blowing from the south-southwest";"5";"";"";"";"Few clouds (10-30%) 450 m";"10.0 and more";"15.0";
+"14.02.2022 19:30";"22.0";"755.2";"765.8";"65";"Wind blowing from the south";"5";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"14.02.2022 19:00";"23.0";"755.2";"765.8";"61";"Wind blowing from the south";"6";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"14.02.2022 18:30";"24.0";"754.4";"765.0";"57";"Wind blowing from the south-southwest";"7";"";"";"";"No Significant Clouds";"10.0 and more";"15.0";
+"14.02.2022 18:00";"25.0";"754.5";"765.0";"57";"Wind blowing from the south";"7";"";"";"";"No Significant Clouds";"10.0 and more";"16.0";
+"14.02.2022 17:30";"25.0";"753.8";"764.3";"57";"Wind blowing from the south";"7";"";"";"";"No Significant Clouds";"10.0 and more";"16.0";
+"14.02.2022 17:00";"25.0";"753.8";"764.3";"57";"Wind blowing from the south";"7";"";"";"";"No Significant Clouds";"10.0 and more";"16.0";
+"14.02.2022 16:30";"25.0";"753.8";"764.3";"61";"Wind blowing from the south";"8";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"14.02.2022 16:00";"25.0";"753.8";"764.3";"61";"Wind blowing from the south";"8";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"14.02.2022 15:30";"26.0";"753.8";"764.3";"61";"Wind blowing from the south";"8";"";"";"";"No Significant Clouds";"10.0 and more";"18.0";
+"14.02.2022 15:00";"27.0";"753.8";"764.3";"54";"Wind blowing from the south";"8";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"14.02.2022 14:30";"27.0";"753.8";"764.3";"54";"Wind blowing from the south";"8";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"14.02.2022 14:00";"29.0";"753.9";"764.3";"51";"Wind blowing from the south";"8";"";"";"";"No Significant Clouds";"10.0 and more";"18.0";
+"14.02.2022 13:45";"29.0";"753.9";"764.3";"48";"Wind blowing from the south";"6";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"14.02.2022 13:30";"34.0";"754.1";"764.3";"24";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"11.0";
+"14.02.2022 13:00";"34.0";"754.1";"764.3";"24";"Wind blowing from the north-west";"6";"";"";"";"No Significant Clouds";"10.0 and more";"11.0";
+"14.02.2022 12:42";"34.0";"754.1";"764.3";"26";"Wind blowing from the north";"8";"13";"";"";"No Significant Clouds";"10.0 and more";"12.0";
+"14.02.2022 12:30";"34.0";"754.1";"764.3";"24";"Wind blowing from the north-west";"9";"";"";"";"No Significant Clouds";"10.0 and more";"11.0";
+"14.02.2022 12:00";"33.0";"754.1";"764.3";"26";"Wind blowing from the north";"10";"";"";"";"No Significant Clouds";"10.0 and more";"11.0";
+"14.02.2022 11:57";"33.0";"754.1";"764.3";"26";"Wind blowing from the north";"10";"15";"";"";"No Significant Clouds";"10.0 and more";"11.0";
+"14.02.2022 11:30";"32.0";"754.0";"764.3";"27";"Wind blowing from the north";"11";"";"";"";"No Significant Clouds";"10.0 and more";"11.0";
+"14.02.2022 11:00";"32.0";"754.7";"765.0";"27";"Wind blowing from the north";"11";"";"";"";"No Significant Clouds";"10.0 and more";"11.0";
+"14.02.2022 10:30";"29.0";"754.6";"765.0";"33";"Wind blowing from the north";"10";"";"";"";"No Significant Clouds";"10.0 and more";"11.0";
+"14.02.2022 10:25";"29.0";"754.6";"765.0";"31";"Wind blowing from the north";"9";"14";"";"";"No Significant Clouds";"10.0 and more";"10.0";
+"14.02.2022 10:00";"28.0";"754.6";"765.0";"37";"Wind blowing from the north";"8";"";"";"";"No Significant Clouds";"10.0 and more";"12.0";
+"14.02.2022 09:30";"28.0";"754.6";"765.0";"37";"Wind blowing from the north";"8";"";"";"";"No Significant Clouds";"10.0 and more";"12.0";
+"14.02.2022 09:00";"26.0";"754.5";"765.0";"42";"Wind blowing from the north";"8";"";"";"";"No Significant Clouds";"10.0 and more";"12.0";
+"14.02.2022 08:30";"25.0";"753.8";"764.3";"44";"Wind blowing from the north";"8";"";"";"";"No Significant Clouds";"10.0 and more";"12.0";
+"14.02.2022 08:00";"24.0";"753.7";"764.3";"47";"Wind blowing from the north";"7";"";"";"";"No Significant Clouds";"10.0 and more";"12.0";
+"14.02.2022 07:30";"21.0";"752.8";"763.5";"53";"Wind blowing from the north-northeast";"5";"";"";"";"No Significant Clouds";"10.0 and more";"11.0";
+"14.02.2022 07:00";"17.0";"752.7";"763.5";"56";"Wind blowing from the south";"2";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"14.02.2022 06:30";"15.0";"752.6";"763.5";"63";"Wind blowing from the west";"2";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"14.02.2022 06:00";"16.0";"752.7";"763.5";"59";"Wind blowing from the east-northeast";"3";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"14.02.2022 05:30";"15.0";"752.6";"763.5";"63";"Wind blowing from the north";"3";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"14.02.2022 05:00";"17.0";"752.7";"763.5";"56";"Wind blowing from the north";"3";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"14.02.2022 04:30";"16.0";"752.7";"763.5";"55";"Wind blowing from the north";"4";"";"";"";"No Significant Clouds";"10.0 and more";"7.0";
+"14.02.2022 04:00";"17.0";"752.7";"763.5";"56";"Wind blowing from the north";"4";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"14.02.2022 03:30";"17.0";"752.7";"763.5";"56";"Wind blowing from the north";"4";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"14.02.2022 03:00";"18.0";"752.7";"763.5";"52";"Wind blowing from the north";"2";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"14.02.2022 02:30";"18.0";"752.7";"763.5";"52";"Wind blowing from the north";"1";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"14.02.2022 02:00";"18.0";"752.7";"763.5";"49";"Wind blowing from the west-southwest";"2";"";"";"";"No Significant Clouds";"10.0 and more";"7.0";
+"14.02.2022 01:30";"19.0";"752.8";"763.5";"46";"Wind blowing from the west";"2";"";"";"";"No Significant Clouds";"10.0 and more";"7.0";
+"14.02.2022 01:00";"19.0";"752.8";"763.5";"46";"Wind blowing from the west";"3";"";"";"";"No Significant Clouds";"10.0 and more";"7.0";
+"14.02.2022 00:30";"19.0";"752.8";"763.5";"49";"Wind blowing from the west-northwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"14.02.2022 00:00";"19.0";"752.8";"763.5";"49";"Wind blowing from the west";"4";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";

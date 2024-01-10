@@ -1,0 +1,67 @@
+# Weather station Melbourne (airport), Australia, METAR=YMML,selection from 23.11.2020 till 23.11.2020, all days
+# Encoding: UTF-8
+# The data is provided by the website "Reliable Prognosis", rp5.ru
+# If you use the data, please indicate the name of the website.
+# For meteorological parameters see the address http://rp5.ru/metar.php?metar=YMML&lang=en
+#
+"Local time in Melbourne (airport)";"T";"P0";"P";"U";"DD";"Ff";"ff10";"WW";"W'W'";"c";"VV";"Td";
+"23.11.2020 23:30";"14.0";"750.3";"761.2";"77";"Wind blowing from the south-southwest";"5";"";"";"";"Few clouds (10-30%) 750 m, broken clouds (60-90%) 1230 m";"10.0 and more";"10.0";
+"23.11.2020 23:00";"14.0";"750.3";"761.2";"82";"Wind blowing from the south";"4";"";"";"";"Few clouds (10-30%) 900 m, broken clouds (60-90%) 1260 m";"10.0 and more";"11.0";
+"23.11.2020 22:30";"14.0";"750.3";"761.2";"77";"Wind blowing from the south";"6";"";"";"";"Few clouds (10-30%) 840 m, broken clouds (60-90%) 1260 m";"10.0 and more";"10.0";
+"23.11.2020 22:00";"14.0";"750.3";"761.2";"77";"Wind blowing from the south";"5";"";"";"";"Few clouds (10-30%) 840 m, broken clouds (60-90%) 1260 m";"10.0 and more";"10.0";
+"23.11.2020 21:30";"14.0";"750.3";"761.2";"72";"Wind blowing from the south";"6";"";"";"";"Few clouds (10-30%) 900 m, scattered clouds (40-50%) 1200 m";"10.0 and more";"9.0";
+"23.11.2020 21:00";"14.0";"750.3";"761.2";"72";"Wind blowing from the south-southwest";"7";"";"";"";"Few clouds (10-30%) 900 m, broken clouds (60-90%) 1110 m";"10.0 and more";"9.0";
+"23.11.2020 20:30";"15.0";"749.7";"760.5";"68";"Wind blowing from the south";"6";"";"";"";"Few clouds (10-30%) 810 m, broken clouds (60-90%) 990 m";"10.0 and more";"9.0";
+"23.11.2020 20:00";"15.0";"749.7";"760.5";"68";"Wind blowing from the south";"8";"";"";"";"Few clouds (10-30%) 810 m, scattered clouds (40-50%) 1050 m";"10.0 and more";"9.0";
+"23.11.2020 19:30";"16.0";"748.9";"759.7";"63";"Wind blowing from the south";"7";"";"";"";"Few clouds (10-30%) 780 m, broken clouds (60-90%) 1200 m";"10.0 and more";"9.0";
+"23.11.2020 19:00";"16.0";"748.9";"759.7";"68";"Wind blowing from the south";"8";"";"";"";"Scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1260 m";"10.0 and more";"10.0";
+"23.11.2020 18:30";"16.0";"748.9";"759.7";"68";"Wind blowing from the south";"8";"";"";"";"Broken clouds (60-90%) 720 m, broken clouds (60-90%) 1350 m";"10.0 and more";"10.0";
+"23.11.2020 18:00";"16.0";"748.9";"759.7";"72";"Wind blowing from the south";"9";"";"";"";"Broken clouds (60-90%) 660 m, broken clouds (60-90%) 810 m";"10.0 and more";"11.0";
+"23.11.2020 17:30";"17.0";"748.3";"759.0";"73";"Wind blowing from the south";"9";"";"";"";"Scattered clouds (40-50%) 600 m, broken clouds (60-90%) 690 m";"10.0 and more";"12.0";
+"23.11.2020 17:00";"18.0";"748.3";"759.0";"68";"Wind blowing from the south";"9";"";"";"";"Broken clouds (60-90%) 660 m";"10.0 and more";"12.0";
+"23.11.2020 16:30";"18.0";"748.3";"759.0";"68";"Wind blowing from the south";"9";"";"";"";"Few clouds (10-30%) 600 m, scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1350 m";"10.0 and more";"12.0";
+"23.11.2020 16:00";"19.0";"748.3";"759.0";"64";"Wind blowing from the south";"9";"";"";"";"Scattered clouds (40-50%) 750 m, broken clouds (60-90%) 1350 m";"10.0 and more";"12.0";
+"23.11.2020 15:30";"19.0";"748.3";"759.0";"60";"Wind blowing from the south";"8";"";"";"";"Broken clouds (60-90%) 810 m";"10.0 and more";"11.0";
+"23.11.2020 15:00";"18.0";"748.3";"759.0";"73";"Wind blowing from the south";"8";"";"";"";"Broken clouds (60-90%) 690 m, broken clouds (60-90%) 840 m";"10.0 and more";"13.0";
+"23.11.2020 14:30";"18.0";"748.3";"759.0";"78";"Wind blowing from the south";"7";"";"";"";"Scattered clouds (40-50%) 660 m, broken clouds (60-90%) 780 m";"10.0 and more";"14.0";
+"23.11.2020 14:00";"18.0";"748.3";"759.0";"78";"Wind blowing from the south";"8";"";"";"";"Broken clouds (60-90%) 570 m, broken clouds (60-90%) 840 m";"10.0 and more";"14.0";
+"23.11.2020 13:30";"18.0";"748.3";"759.0";"83";"Wind blowing from the south-southwest";"7";"";"";"";"Few clouds (10-30%) 240 m, scattered clouds (40-50%) 480 m, broken clouds (60-90%) 750 m";"10.0 and more";"15.0";
+"23.11.2020 13:00";"17.0";"748.3";"759.0";"94";"Wind blowing from the south-west";"5";"";"";"";"Scattered clouds (40-50%) 150 m, broken clouds (60-90%) 300 m";"10.0 and more";"16.0";
+"23.11.2020 12:53";"16.0";"748.2";"759.0";"94";"Wind blowing from the south-west";"5";"";"";"";"Broken clouds (60-90%) 210 m, broken clouds (60-90%) 300 m";"9.0";"15.0";
+"23.11.2020 12:46";"16.0";"748.2";"759.0";"94";"Wind blowing from the south-west";"5";"";"Light drizzle, mist";"";"Broken clouds (60-90%) 150 m, broken clouds (60-90%) 300 m";"5.0";"15.0";
+"23.11.2020 12:30";"15.0";"748.2";"759.0";"100";"Wind blowing from the south-west";"6";"";"Light drizzle, mist";"";"Broken clouds (60-90%) 120 m, broken clouds (60-90%) 240 m";"2.5";"15.0";
+"23.11.2020 12:22";"15.0";"748.2";"759.0";"100";"Wind blowing from the south-west";"6";"";"Light drizzle, mist";"";"Broken clouds (60-90%) 150 m, broken clouds (60-90%) 240 m";"2.5";"15.0";
+"23.11.2020 12:00";"15.0";"747.4";"758.2";"100";"Wind blowing from the south-southwest";"7";"";"Light drizzle";"";"Broken clouds (60-90%) 210 m";"5.0";"15.0";
+"23.11.2020 11:30";"16.0";"747.4";"758.2";"94";"Wind blowing from the south-southwest";"6";"";"";"";"Broken clouds (60-90%) 210 m, broken clouds (60-90%) 390 m";"10.0 and more";"15.0";
+"23.11.2020 11:18";"16.0";"747.4";"758.2";"94";"Wind blowing from the south-southwest";"7";"";"Light drizzle";"";"Broken clouds (60-90%) 210 m, broken clouds (60-90%) 360 m";"9.0";"15.0";
+"23.11.2020 11:00";"16.0";"747.4";"758.2";"94";"Wind blowing from the south-southwest";"7";"";"Light drizzle";"";"Scattered clouds (40-50%) 150 m, broken clouds (60-90%) 270 m";"4.0";"15.0";
+"23.11.2020 10:55";"16.0";"747.4";"758.2";"94";"Wind blowing from the south-southwest";"7";"";"Light drizzle";"";"Scattered clouds (40-50%) 150 m, broken clouds (60-90%) 270 m";"6.0";"15.0";
+"23.11.2020 10:50";"16.0";"747.4";"758.2";"100";"Wind blowing from the south-southwest";"8";"";"Light drizzle";"";"Few clouds (10-30%) 150 m, broken clouds (60-90%) 300 m, broken clouds (60-90%) 540 m";"9.0";"16.0";
+"23.11.2020 10:30";"17.0";"747.0";"757.7";"94";"Wind blowing from the south";"6";"";"Light rain";"";"Broken clouds (60-90%) 240 m";"5.0";"16.0";
+"23.11.2020 10:16";"17.0";"747.0";"757.7";"100";"Wind blowing from the south";"6";"";"Shower(s), rain";"";"Scattered clouds (40-50%) 240 m, broken clouds (60-90%) 420 m";"6.0";"17.0";
+"23.11.2020 10:00";"18.0";"747.0";"757.7";"88";"Wind blowing from the south-southwest";"4";"";"Light shower(s), rain";"";"Broken clouds (60-90%) 270 m, broken clouds (60-90%) 420 m";"9.0";"16.0";
+"23.11.2020 09:49";"18.0";"747.0";"757.7";"88";"Wind blowing from the south-southwest";"5";"";"In the vicinity shower(s)";"";"Scattered clouds (40-50%) 300 m, broken clouds (60-90%) 480 m, broken clouds (60-90%) 1200 m";"10.0 and more";"16.0";
+"23.11.2020 09:30";"19.0";"747.1";"757.7";"88";"Wind blowing from the south-west";"4";"";"In the vicinity shower(s)";"";"Few clouds (10-30%) 300 m, scattered clouds (40-50%) 360 m, broken clouds (60-90%) 600 m";"10.0 and more";"17.0";
+"23.11.2020 09:00";"17.0";"747.0";"757.7";"94";"Wind blowing from the west";"4";"";"";"";"Few clouds (10-30%) 360 m, scattered clouds (40-50%) 3900 m, broken clouds (60-90%) 4800 m";"10.0 and more";"16.0";
+"23.11.2020 08:30";"17.0";"746.2";"756.9";"94";"Wind blowing from the north-northeast";"3";"";"";"";"Few clouds (10-30%) 300 m, broken clouds (60-90%) 3750 m";"10.0 and more";"16.0";
+"23.11.2020 08:00";"16.0";"746.2";"756.9";"94";"Wind blowing from the south";"2";"";"Light rain";"";"Few clouds (10-30%) 360 m, broken clouds (60-90%) 2850 m";"10.0 and more";"15.0";
+"23.11.2020 07:30";"16.0";"746.9";"757.7";"94";"Wind blowing from the west";"6";"";"Light rain";"";"Few clouds (10-30%) 270 m, scattered clouds (40-50%) 900 m, broken clouds (60-90%) 2700 m";"10.0 and more";"15.0";
+"23.11.2020 07:00";"16.0";"746.2";"756.9";"94";"Wind blowing from the west-southwest";"8";"";"Light rain";"";"Few clouds (10-30%) 300 m, broken clouds (60-90%) 2850 m";"8.0";"15.0";
+"23.11.2020 06:48";"16.0";"746.2";"756.9";"94";"Wind blowing from the west-southwest";"9";"14";"Rain";"";"Broken clouds (60-90%) 180 m, scattered clouds (40-50%) 840 m";"4.0";"15.0";
+"23.11.2020 06:45";"16.0";"746.2";"756.9";"94";"Wind blowing from the west";"10";"";"Shower(s), rain";"";"Broken clouds (60-90%) 150 m, broken clouds (60-90%) 840 m";"5.0";"15.0";
+"23.11.2020 06:30";"17.0";"745.5";"756.2";"94";"Wind blowing from the south-west";"4";"";"Light shower(s), rain";"";"Broken clouds (60-90%) 120 m, broken clouds (60-90%) 1200 m";"6.0";"16.0";
+"23.11.2020 06:00";"17.0";"745.5";"756.2";"100";"Wind blowing from the south-west";"5";"";"Shower(s), rain";"";"Broken clouds (60-90%) 120 m";"5.0";"17.0";
+"23.11.2020 05:53";"17.0";"745.5";"756.2";"100";"Wind blowing from the south-west";"4";"";"Heavy shower(s), rain";"";"Broken clouds (60-90%) 120 m, broken clouds (60-90%) 810 m";"6.0";"17.0";
+"23.11.2020 05:39";"18.0";"745.5";"756.2";"94";"Wind blowing from the south";"4";"";"In the vicinity shower(s)";"";"Broken clouds (60-90%) 120 m, broken clouds (60-90%) 810 m";"10.0 and more";"17.0";
+"23.11.2020 05:30";"18.0";"745.5";"756.2";"94";"Wind blowing from the south-southeast";"4";"";"";"";"Few clouds (10-30%) 150 m, scattered clouds (40-50%) 360 m, broken clouds (60-90%) 810 m";"10.0 and more";"17.0";
+"23.11.2020 05:00";"18.0";"744.8";"755.4";"94";"Wind blowing from the south";"5";"";"";"";"Few clouds (10-30%) 600 m, scattered clouds (40-50%) 840 m, broken clouds (60-90%) 2100 m";"10.0 and more";"17.0";
+"23.11.2020 04:30";"18.0";"744.8";"755.4";"94";"Wind blowing from the east";"3";"";"";"";"No Significant Clouds";"10.0 and more";"17.0";
+"23.11.2020 04:00";"19.0";"744.8";"755.4";"83";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"16.0";
+"23.11.2020 03:30";"19.0";"744.8";"755.4";"83";"Wind blowing from the north";"5";"";"In the vicinity shower(s)";"";"No Significant Clouds";"10.0 and more";"16.0";
+"23.11.2020 03:00";"18.0";"745.5";"756.2";"88";"Wind blowing from the north";"4";"";"Light shower(s), rain";"";"No Significant Clouds";"10.0 and more";"16.0";
+"23.11.2020 02:30";"18.0";"745.5";"756.2";"88";"Wind blowing from the north";"6";"";"";"";"No Significant Clouds";"10.0 and more";"16.0";
+"23.11.2020 02:00";"18.0";"746.2";"756.9";"88";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"16.0";
+"23.11.2020 01:30";"18.0";"746.2";"756.9";"88";"Wind blowing from the north";"5";"";"Light rain";"";"No Significant Clouds";"10.0 and more";"16.0";
+"23.11.2020 01:00";"18.0";"747.0";"757.7";"88";"Wind blowing from the north";"5";"";"Light rain";"";"No Significant Clouds";"10.0 and more";"16.0";
+"23.11.2020 00:30";"17.0";"747.5";"758.2";"100";"Wind blowing from the north";"5";"";"Shower(s), rain";"";"No Significant Clouds";"7.0";"17.0";
+"23.11.2020 00:00";"17.0";"748.3";"759.0";"100";"Wind blowing from the north";"2";"";"Shower(s), rain";"";"Few clouds (10-30%) 1350 m, broken clouds (60-90%) 1650 m";"6.0";"17.0";

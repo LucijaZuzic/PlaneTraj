@@ -1,0 +1,55 @@
+# Weather station Melbourne (airport), Australia, METAR=YMML,selection from 19.07.2021 till 19.07.2021, all days
+# Encoding: UTF-8
+# The data is provided by the website "Reliable Prognosis", rp5.ru
+# If you use the data, please indicate the name of the website.
+# For meteorological parameters see the address http://rp5.ru/metar.php?metar=YMML&lang=en
+#
+"Local time in Melbourne (airport)";"T";"P0";"P";"U";"DD";"Ff";"ff10";"WW";"W'W'";"c";"VV";"Td";
+"19.07.2021 23:30";"11.0";"746.8";"757.7";"72";"Wind blowing from the north";"7";"";"";"";"Few clouds (10-30%) 900 m, broken clouds (60-90%) 3000 m, broken clouds (60-90%) 4650 m";"10.0 and more";"6.0";
+"19.07.2021 23:00";"10.0";"746.7";"757.7";"76";"Wind blowing from the north";"5";"";"";"";"Few clouds (10-30%) 900 m, scattered clouds (40-50%) 3750 m, broken clouds (60-90%) 4500 m";"10.0 and more";"6.0";
+"19.07.2021 22:30";"10.0";"747.2";"758.2";"76";"Wind blowing from the north";"6";"";"";"";"Few clouds (10-30%) 900 m, broken clouds (60-90%) 2700 m, broken clouds (60-90%) 4350 m";"10.0 and more";"6.0";
+"19.07.2021 22:00";"10.0";"747.2";"758.2";"76";"Wind blowing from the north";"6";"";"";"";"Few clouds (10-30%) 900 m, broken clouds (60-90%) 4950 m";"10.0 and more";"6.0";
+"19.07.2021 21:30";"10.0";"747.2";"758.2";"76";"Wind blowing from the north";"6";"";"";"";"Few clouds (10-30%) 900 m, broken clouds (60-90%) 5250 m";"10.0 and more";"6.0";
+"19.07.2021 21:00";"10.0";"747.2";"758.2";"76";"Wind blowing from the north";"5";"";"";"";"Few clouds (10-30%) 750 m, broken clouds (60-90%) 6300 m";"10.0 and more";"6.0";
+"19.07.2021 20:30";"9.0";"747.2";"758.2";"87";"Wind blowing from the north";"7";"";"";"";"Few clouds (10-30%) 750 m, scattered clouds (40-50%) 3150 m";"10.0 and more";"7.0";
+"19.07.2021 20:00";"10.0";"748.0";"759.0";"76";"Wind blowing from the north";"5";"";"";"";"Few clouds (10-30%) 750 m, scattered clouds (40-50%) 1710 m";"10.0 and more";"6.0";
+"19.07.2021 19:30";"10.0";"748.0";"759.0";"71";"Wind blowing from the north";"6";"";"";"";"Few clouds (10-30%) 750 m, scattered clouds (40-50%) 1620 m";"10.0 and more";"5.0";
+"19.07.2021 19:00";"10.0";"748.0";"759.0";"76";"Wind blowing from the north";"5";"";"";"";"Few clouds (10-30%) 750 m, scattered clouds (40-50%) 1500 m";"10.0 and more";"6.0";
+"19.07.2021 18:30";"11.0";"748.0";"759.0";"72";"Wind blowing from the north";"6";"";"";"";"Few clouds (10-30%) 1050 m, scattered clouds (40-50%) 1320 m";"10.0 and more";"6.0";
+"19.07.2021 18:00";"11.0";"748.0";"759.0";"72";"Wind blowing from the north";"6";"";"";"";"Few clouds (10-30%) 1020 m, broken clouds (60-90%) 2700 m";"10.0 and more";"6.0";
+"19.07.2021 17:30";"12.0";"748.1";"759.0";"67";"Wind blowing from the north";"6";"";"";"";"Few clouds (10-30%) 1020 m, broken clouds (60-90%) 1710 m";"10.0 and more";"6.0";
+"19.07.2021 17:00";"13.0";"748.1";"759.0";"63";"Wind blowing from the north-northwest";"5";"";"In the vicinity shower(s)";"";"Few clouds (10-30%) 1080 m, broken clouds (60-90%) 1590 m";"10.0 and more";"6.0";
+"19.07.2021 16:30";"12.0";"748.1";"759.0";"67";"Wind blowing from the north";"4";"";"";"";"Scattered clouds (40-50%) 1140 m, broken clouds (60-90%) 1710 m";"10.0 and more";"6.0";
+"19.07.2021 16:00";"12.0";"748.1";"759.0";"72";"Wind blowing from the north";"5";"";"In the vicinity shower(s)";"";"Scattered clouds (40-50%) 990 m, broken clouds (60-90%) 1200 m";"10.0 and more";"7.0";
+"19.07.2021 15:30";"12.0";"748.1";"759.0";"67";"Wind blowing from the north-northwest";"4";"";"Light rain";"";"Scattered clouds (40-50%) 960 m, broken clouds (60-90%) 1200 m";"10.0 and more";"6.0";
+"19.07.2021 15:00";"12.0";"748.8";"759.7";"67";"Wind blowing from the north-northwest";"5";"";"Light shower(s), rain";"";"Few clouds (10-30%) 1020 m, scattered clouds (40-50%) 1140 m, broken clouds (60-90%) 1740 m";"10.0 and more";"6.0";
+"19.07.2021 14:30";"12.0";"748.8";"759.7";"67";"Wind blowing from the north-west";"5";"";"Light shower(s), rain";"";"Few clouds (10-30%) 1050 m, scattered clouds (40-50%) 1260 m, broken clouds (60-90%) 1800 m";"10.0 and more";"6.0";
+"19.07.2021 14:00";"12.0";"748.8";"759.7";"67";"Wind blowing from the north-northwest";"6";"";"In the vicinity shower(s)";"";"Few clouds (10-30%) 1020 m, broken clouds (60-90%) 1740 m";"10.0 and more";"6.0";
+"19.07.2021 13:30";"12.0";"749.6";"760.5";"72";"Wind blowing from the north-west";"6";"";"In the vicinity shower(s)";"";"Few clouds (10-30%) 1050 m, broken clouds (60-90%) 1650 m";"10.0 and more";"7.0";
+"19.07.2021 13:00";"12.0";"750.2";"761.2";"67";"Wind blowing from the north-northwest";"5";"";"Light shower(s), rain";"";"Few clouds (10-30%) 870 m, broken clouds (60-90%) 1650 m";"10.0 and more";"6.0";
+"19.07.2021 12:30";"12.0";"750.2";"761.2";"63";"Wind blowing from the north-northwest";"5";"";"Light shower(s), rain";"";"Few clouds (10-30%) 810 m, broken clouds (60-90%) 1710 m";"10.0 and more";"5.0";
+"19.07.2021 12:00";"12.0";"750.2";"761.2";"67";"Wind blowing from the north-northwest";"5";"";"";"";"Few clouds (10-30%) 750 m, broken clouds (60-90%) 1710 m";"10.0 and more";"6.0";
+"19.07.2021 11:30";"12.0";"751.0";"762.0";"67";"Wind blowing from the north-northwest";"6";"";"";"";"Few clouds (10-30%) 720 m, broken clouds (60-90%) 1650 m";"10.0 and more";"6.0";
+"19.07.2021 11:00";"11.0";"751.0";"762.0";"72";"Wind blowing from the north-west";"5";"";"";"";"Few clouds (10-30%) 690 m, scattered clouds (40-50%) 1740 m, broken clouds (60-90%) 4800 m";"10.0 and more";"6.0";
+"19.07.2021 10:30";"10.0";"751.0";"762.0";"76";"Wind blowing from the north";"7";"";"";"";"Few clouds (10-30%) 750 m, broken clouds (60-90%) 4800 m";"10.0 and more";"6.0";
+"19.07.2021 10:00";"9.0";"750.9";"762.0";"82";"Wind blowing from the north";"6";"";"";"";"Few clouds (10-30%) 510 m, broken clouds (60-90%) 4800 m";"10.0 and more";"6.0";
+"19.07.2021 09:30";"9.0";"750.9";"762.0";"76";"Wind blowing from the north";"5";"";"";"";"Few clouds (10-30%) 510 m, broken clouds (60-90%) 4800 m";"10.0 and more";"5.0";
+"19.07.2021 09:00";"9.0";"750.9";"762.0";"76";"Wind blowing from the north";"5";"";"";"";"Few clouds (10-30%) 450 m, scattered clouds (40-50%) 1740 m, broken clouds (60-90%) 4950 m";"10.0 and more";"5.0";
+"19.07.2021 08:30";"9.0";"750.9";"762.0";"71";"Wind blowing from the north";"6";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"19.07.2021 08:00";"9.0";"750.9";"762.0";"71";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"19.07.2021 07:30";"9.0";"750.9";"762.0";"71";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"19.07.2021 07:00";"10.0";"751.0";"762.0";"67";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"19.07.2021 06:30";"9.0";"750.1";"761.2";"76";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"19.07.2021 06:00";"9.0";"750.9";"762.0";"76";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"19.07.2021 05:30";"10.0";"750.2";"761.2";"71";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"19.07.2021 05:00";"10.0";"751.0";"762.0";"71";"Wind blowing from the north";"4";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"19.07.2021 04:30";"9.0";"750.9";"762.0";"76";"Wind blowing from the north";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"19.07.2021 04:00";"9.0";"750.9";"762.0";"76";"Wind blowing from the north";"3";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"19.07.2021 03:30";"9.0";"750.9";"762.0";"76";"Wind blowing from the north";"3";"";"";"";"Few clouds (10-30%) 1470 m, broken clouds (60-90%) 1710 m";"10.0 and more";"5.0";
+"19.07.2021 03:00";"9.0";"750.9";"762.0";"76";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"19.07.2021 02:30";"9.0";"750.9";"762.0";"76";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"19.07.2021 02:00";"9.0";"750.9";"762.0";"76";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"19.07.2021 01:30";"8.0";"751.7";"762.8";"82";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"19.07.2021 01:00";"8.0";"751.7";"762.8";"82";"Wind blowing from the north";"6";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";
+"19.07.2021 00:30";"7.0";"751.6";"762.8";"81";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"4.0";
+"19.07.2021 00:00";"8.0";"751.7";"762.8";"82";"Wind blowing from the north";"5";"";"";"";"No Significant Clouds";"10.0 and more";"5.0";

@@ -1,0 +1,57 @@
+# Weather station Melbourne (airport), Australia, METAR=YMML,selection from 23.05.2022 till 23.05.2022, all days
+# Encoding: UTF-8
+# The data is provided by the website "Reliable Prognosis", rp5.ru
+# If you use the data, please indicate the name of the website.
+# For meteorological parameters see the address http://rp5.ru/metar.php?metar=YMML&lang=en
+#
+"Local time in Melbourne (airport)";"T";"P0";"P";"U";"DD";"Ff";"ff10";"WW";"W'W'";"c";"VV";"Td";
+"23.05.2022 23:30";"7.0";"760.6";"771.9";"93";"Wind blowing from the north";"3";"";"";"";"No Significant Clouds";"10.0 and more";"6.0";
+"23.05.2022 23:00";"8.0";"760.6";"771.9";"93";"Wind blowing from the north";"4";"";"";"";"Few clouds (10-30%) 900 m";"10.0 and more";"7.0";
+"23.05.2022 22:30";"8.0";"760.6";"771.9";"93";"Wind blowing from the north";"2";"";"";"";"Few clouds (10-30%) 900 m";"9.0";"7.0";
+"23.05.2022 22:00";"8.0";"760.6";"771.9";"93";"Wind blowing from the north";"2";"";"";"";"Few clouds (10-30%) 900 m";"7.0";"7.0";
+"23.05.2022 21:30";"9.0";"759.9";"771.1";"94";"Calm, no wind";"0";"";"";"";"Few clouds (10-30%) 900 m";"8.0";"8.0";
+"23.05.2022 21:00";"11.0";"760.0";"771.1";"94";"Calm, no wind";"0";"";"";"";"Few clouds (10-30%) 900 m";"9.0";"10.0";
+"23.05.2022 20:30";"10.0";"759.9";"771.1";"82";"Calm, no wind";"0";"";"";"";"Few clouds (10-30%) 900 m";"9.0";"7.0";
+"23.05.2022 20:00";"10.0";"759.9";"771.1";"94";"Wind blowing from the south-southwest";"1";"";"";"";"Few clouds (10-30%) 900 m";"9.0";"9.0";
+"23.05.2022 19:30";"11.0";"760.0";"771.1";"88";"Wind blowing from the south-southwest";"2";"";"";"";"No Significant Clouds";"9.0";"9.0";
+"23.05.2022 19:00";"11.0";"760.0";"771.1";"88";"Wind blowing from the south";"3";"";"";"";"Few clouds (10-30%) 900 m";"9.0";"9.0";
+"23.05.2022 18:30";"13.0";"760.0";"771.1";"77";"Wind blowing from the south";"3";"";"";"";"Few clouds (10-30%) 900 m";"10.0 and more";"9.0";
+"23.05.2022 18:00";"14.0";"759.4";"770.4";"72";"Wind blowing from the south";"3";"";"";"";"Few clouds (10-30%) 900 m";"10.0 and more";"9.0";
+"23.05.2022 17:30";"16.0";"759.5";"770.4";"68";"Wind blowing from the south";"3";"";"";"";"Few clouds (10-30%) 1050 m";"10.0 and more";"10.0";
+"23.05.2022 17:00";"17.0";"759.5";"770.4";"59";"Wind blowing from the south";"4";"";"";"";"Few clouds (10-30%) 1050 m";"10.0 and more";"9.0";
+"23.05.2022 16:30";"18.0";"759.5";"770.4";"56";"Wind blowing from the south";"4";"";"";"";"Few clouds (10-30%) 1200 m";"10.0 and more";"9.0";
+"23.05.2022 15:30";"18.0";"759.5";"770.4";"56";"Wind blowing from the south-southeast";"3";"";"";"";"Few clouds (10-30%) 1200 m";"10.0 and more";"9.0";
+"23.05.2022 15:00";"17.0";"760.2";"771.1";"59";"Wind blowing from the south-southeast";"3";"";"";"";"Few clouds (10-30%) 1200 m";"10.0 and more";"9.0";
+"23.05.2022 14:30";"17.0";"760.2";"771.1";"59";"Wind blowing from the south-east";"3";"";"";"";"Few clouds (10-30%) 1050 m";"10.0 and more";"9.0";
+"23.05.2022 14:00";"16.0";"760.2";"771.1";"59";"Wind blowing from the south-southeast";"4";"";"";"";"Few clouds (10-30%) 1050 m";"10.0 and more";"8.0";
+"23.05.2022 13:30";"16.0";"760.2";"771.1";"63";"Wind blowing from the south-southeast";"3";"";"";"";"Few clouds (10-30%) 900 m";"10.0 and more";"9.0";
+"23.05.2022 13:00";"15.0";"760.9";"771.9";"63";"Wind blowing from the south-southeast";"3";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"23.05.2022 12:30";"14.0";"760.9";"771.9";"67";"Wind blowing from the south-southeast";"3";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"23.05.2022 12:00";"13.0";"761.6";"772.7";"72";"Wind blowing from the east-southeast";"2";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"23.05.2022 11:30";"13.0";"761.6";"772.7";"72";"Wind blowing from the east";"1";"";"";"";"Few clouds (10-30%) 120 m";"10.0 and more";"8.0";
+"23.05.2022 11:00";"11.0";"761.5";"772.7";"82";"Wind blowing from the north-northeast";"1";"";"";"";"Few clouds (10-30%) 90 m";"10.0 and more";"8.0";
+"23.05.2022 10:30";"10.0";"761.5";"772.7";"82";"Wind blowing from the north-northeast";"2";"";"";"";"Few clouds (10-30%) 90 m";"10.0 and more";"7.0";
+"23.05.2022 10:12";"8.0";"761.4";"772.7";"93";"Wind blowing from the north-east";"2";"";"";"";"Few clouds (10-30%) 90 m";"8.0";"7.0";
+"23.05.2022 10:00";"8.0";"761.4";"772.7";"93";"Wind blowing from the north-east";"2";"";"Mist";"";"Broken clouds (60-90%) 60 m";"5.0";"7.0";
+"23.05.2022 09:50";"8.0";"761.4";"772.7";"93";"Wind blowing from the north-east";"3";"";"Mist";"";"Broken clouds (60-90%) 60 m";"2.5";"7.0";
+"23.05.2022 09:30";"7.0";"761.4";"772.7";"100";"Wind blowing from the north";"3";"";"Fog";"";"Broken clouds (60-90%) 60 m";"0.9";"7.0";
+"23.05.2022 09:00";"7.0";"761.4";"772.7";"100";"Wind blowing from the north-northeast";"4";"";"Mist";"";"Broken clouds (60-90%) 60 m";"1.5";"7.0";
+"23.05.2022 08:30";"7.0";"760.6";"771.9";"100";"Wind blowing from the north";"2";"";"Mist";"";"Overcast (100%) 60 m";"1.0";"7.0";
+"23.05.2022 08:00";"7.0";"760.6";"771.9";"100";"Wind blowing from the north";"3";"";"Fog";"";"Overcast (100%) 60 m";"0.8";"7.0";
+"23.05.2022 07:43";"7.0";"760.6";"771.9";"100";"Wind blowing from the north";"3";"";"Fog";"";"Broken clouds (60-90%) 60 m";"0.9";"7.0";
+"23.05.2022 07:30";"7.0";"760.6";"771.9";"93";"Wind blowing from the north";"3";"";"Patches fog, mist";"";"Broken clouds (60-90%) 60 m";"1.8";"6.0";
+"23.05.2022 07:00";"8.0";"760.6";"771.9";"93";"Wind blowing from the north";"3";"";"";"";"Few clouds (10-30%) 60 m, broken clouds (60-90%) 120 m";"9.0";"7.0";
+"23.05.2022 06:30";"8.0";"760.6";"771.9";"93";"Wind blowing from the north";"3";"";"";"";"Broken clouds (60-90%) 150 m";"9.0";"7.0";
+"23.05.2022 06:00";"9.0";"760.7";"771.9";"94";"Wind blowing from the north";"1";"";"";"";"Broken clouds (60-90%) 180 m";"10.0 and more";"8.0";
+"23.05.2022 05:30";"9.0";"760.7";"771.9";"94";"Wind blowing from the north";"2";"";"";"";"Broken clouds (60-90%) 210 m";"10.0 and more";"8.0";
+"23.05.2022 05:00";"9.0";"760.7";"771.9";"94";"Wind blowing from the north-northwest";"1";"";"";"";"Broken clouds (60-90%) 270 m";"10.0 and more";"8.0";
+"23.05.2022 04:30";"10.0";"760.7";"771.9";"88";"Wind blowing from the north-northeast";"2";"";"";"";"Broken clouds (60-90%) 270 m";"10.0 and more";"8.0";
+"23.05.2022 04:00";"9.0";"760.7";"771.9";"94";"Wind blowing from the north";"2";"";"";"";"Broken clouds (60-90%) 270 m";"10.0 and more";"8.0";
+"23.05.2022 03:30";"9.0";"760.7";"771.9";"94";"Wind blowing from the north";"2";"";"";"";"Broken clouds (60-90%) 270 m";"10.0 and more";"8.0";
+"23.05.2022 03:00";"9.0";"760.7";"771.9";"94";"Calm, no wind";"0";"";"";"";"Broken clouds (60-90%) 330 m";"10.0 and more";"8.0";
+"23.05.2022 02:30";"9.0";"760.7";"771.9";"94";"Wind blowing from the north-northwest";"2";"";"";"";"Broken clouds (60-90%) 330 m";"10.0 and more";"8.0";
+"23.05.2022 02:00";"8.0";"760.6";"771.9";"93";"Wind blowing from the north";"1";"";"";"";"Broken clouds (60-90%) 330 m";"10.0 and more";"7.0";
+"23.05.2022 01:30";"8.0";"760.6";"771.9";"93";"Wind blowing from the north";"3";"";"";"";"Broken clouds (60-90%) 330 m";"10.0 and more";"7.0";
+"23.05.2022 01:00";"8.0";"760.6";"771.9";"87";"Wind blowing from the north-northeast";"3";"";"";"";"Broken clouds (60-90%) 330 m";"10.0 and more";"6.0";
+"23.05.2022 00:30";"7.0";"760.6";"771.9";"93";"Wind blowing from the north";"4";"";"";"";"Broken clouds (60-90%) 330 m";"10.0 and more";"6.0";
+"23.05.2022 00:00";"5.0";"760.5";"771.9";"93";"Wind blowing from the north";"3";"";"";"";"Broken clouds (60-90%) 330 m";"10.0 and more";"4.0";

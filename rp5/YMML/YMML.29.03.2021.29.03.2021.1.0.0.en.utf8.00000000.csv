@@ -1,0 +1,61 @@
+# Weather station Melbourne (airport), Australia, METAR=YMML,selection from 29.03.2021 till 29.03.2021, all days
+# Encoding: UTF-8
+# The data is provided by the website "Reliable Prognosis", rp5.ru
+# If you use the data, please indicate the name of the website.
+# For meteorological parameters see the address http://rp5.ru/metar.php?metar=YMML&lang=en
+#
+"Local time in Melbourne (airport)";"T";"P0";"P";"U";"DD";"Ff";"ff10";"WW";"W'W'";"c";"VV";"Td";
+"29.03.2021 23:30";"10.0";"758.4";"769.6";"82";"Wind blowing from the west-northwest";"3";"";"";"";"No Significant Clouds";"10.0 and more";"7.0";
+"29.03.2021 23:00";"11.0";"758.5";"769.6";"77";"Wind blowing from the west-southwest";"2";"";"";"";"No Significant Clouds";"10.0 and more";"7.0";
+"29.03.2021 22:30";"11.0";"758.5";"769.6";"77";"Wind blowing from the west-southwest";"2";"";"";"";"No Significant Clouds";"10.0 and more";"7.0";
+"29.03.2021 22:00";"11.0";"758.5";"769.6";"82";"Wind blowing from the west-southwest";"2";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"29.03.2021 21:30";"12.0";"758.5";"769.6";"77";"Wind blowing from the south-southwest";"2";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"29.03.2021 21:00";"12.0";"758.5";"769.6";"77";"Wind blowing from the south-southwest";"3";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"29.03.2021 20:30";"13.0";"758.6";"769.6";"72";"Wind blowing from the south";"3";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"29.03.2021 20:00";"13.0";"758.6";"769.6";"72";"Wind blowing from the south";"3";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"29.03.2021 19:30";"14.0";"757.9";"768.9";"67";"Wind blowing from the south";"4";"";"";"";"No Significant Clouds";"10.0 and more";"8.0";
+"29.03.2021 19:00";"15.0";"757.9";"768.9";"55";"Wind blowing from the south";"5";"";"";"";"Few clouds (10-30%) 1140 m, broken clouds (60-90%) 9000 m";"10.0 and more";"6.0";
+"29.03.2021 18:30";"16.0";"758.0";"768.9";"52";"Wind blowing from the south";"6";"";"";"";"Few clouds (10-30%) 1140 m, broken clouds (60-90%) 9000 m";"10.0 and more";"6.0";
+"29.03.2021 18:00";"17.0";"758.0";"768.9";"52";"Wind blowing from the south";"6";"";"";"";"Few clouds (10-30%) 1140 m, broken clouds (60-90%) 9000 m";"10.0 and more";"7.0";
+"29.03.2021 17:30";"17.0";"758.0";"768.9";"52";"Wind blowing from the south";"7";"";"";"";"Few clouds (10-30%) 1140 m, broken clouds (60-90%) 9000 m";"10.0 and more";"7.0";
+"29.03.2021 17:00";"17.0";"757.2";"768.1";"52";"Wind blowing from the south";"6";"";"";"";"Few clouds (10-30%) 1140 m, broken clouds (60-90%) 9000 m";"10.0 and more";"7.0";
+"29.03.2021 16:30";"17.0";"758.0";"768.9";"52";"Wind blowing from the south";"6";"12";"";"";"Few clouds (10-30%) 1140 m, scattered clouds (40-50%) 9000 m";"10.0 and more";"7.0";
+"29.03.2021 16:00";"17.0";"757.2";"768.1";"52";"Wind blowing from the south";"7";"";"";"";"Few clouds (10-30%) 1140 m, scattered clouds (40-50%) 9000 m";"10.0 and more";"7.0";
+"29.03.2021 15:30";"18.0";"757.3";"768.1";"49";"Wind blowing from the south";"7";"";"";"";"Few clouds (10-30%) 1110 m, scattered clouds (40-50%) 9000 m";"10.0 and more";"7.0";
+"29.03.2021 15:00";"18.0";"757.3";"768.1";"49";"Wind blowing from the south";"6";"";"";"";"Few clouds (10-30%) 1080 m, broken clouds (60-90%) 9000 m";"10.0 and more";"7.0";
+"29.03.2021 14:30";"18.0";"757.3";"768.1";"52";"Wind blowing from the south";"8";"";"";"";"Few clouds (10-30%) 1080 m, broken clouds (60-90%) 9000 m";"10.0 and more";"8.0";
+"29.03.2021 14:00";"18.0";"758.1";"768.9";"52";"Wind blowing from the south";"6";"";"";"";"Scattered clouds (40-50%) 1020 m, broken clouds (60-90%) 9000 m";"10.0 and more";"8.0";
+"29.03.2021 13:30";"17.0";"758.0";"768.9";"59";"Wind blowing from the south";"6";"";"";"";"Broken clouds (60-90%) 1020 m, broken clouds (60-90%) 9000 m";"10.0 and more";"9.0";
+"29.03.2021 13:00";"18.0";"758.1";"768.9";"49";"Wind blowing from the south-southwest";"6";"";"";"";"Broken clouds (60-90%) 1080 m, broken clouds (60-90%) 9000 m";"10.0 and more";"7.0";
+"29.03.2021 12:30";"17.0";"758.0";"768.9";"52";"Wind blowing from the south-southwest";"5";"";"";"";"Broken clouds (60-90%) 960 m, broken clouds (60-90%) 9000 m";"10.0 and more";"7.0";
+"29.03.2021 12:00";"17.0";"758.0";"768.9";"59";"Wind blowing from the south-west";"6";"";"";"";"Broken clouds (60-90%) 960 m, scattered clouds (40-50%) 9000 m";"10.0 and more";"9.0";
+"29.03.2021 11:30";"16.0";"758.0";"768.9";"63";"Wind blowing from the south-southwest";"6";"";"";"";"Broken clouds (60-90%) 780 m";"10.0 and more";"9.0";
+"29.03.2021 11:00";"16.0";"758.0";"768.9";"68";"Wind blowing from the south-west";"5";"";"";"";"Broken clouds (60-90%) 600 m, broken clouds (60-90%) 1080 m";"10.0 and more";"10.0";
+"29.03.2021 10:30";"15.0";"757.9";"768.9";"82";"Wind blowing from the south-west";"5";"";"";"";"Few clouds (10-30%) 720 m, broken clouds (60-90%) 1020 m";"10.0 and more";"12.0";
+"29.03.2021 10:00";"15.0";"757.2";"768.1";"82";"Wind blowing from the south-west";"4";"";"";"";"Few clouds (10-30%) 720 m, broken clouds (60-90%) 1020 m";"10.0 and more";"12.0";
+"29.03.2021 09:30";"14.0";"757.1";"768.1";"88";"Wind blowing from the south-west";"4";"";"";"";"Few clouds (10-30%) 570 m, broken clouds (60-90%) 780 m";"10.0 and more";"12.0";
+"29.03.2021 09:00";"14.0";"757.1";"768.1";"88";"Wind blowing from the south-west";"4";"";"";"";"Few clouds (10-30%) 180 m, scattered clouds (40-50%) 510 m, broken clouds (60-90%) 660 m";"7.0";"12.0";
+"29.03.2021 08:30";"14.0";"757.1";"768.1";"94";"Wind blowing from the south-southwest";"4";"";"Mist";"";"Few clouds (10-30%) 90 m, overcast (100%) 600 m";"5.0";"13.0";
+"29.03.2021 08:26";"13.0";"756.3";"767.3";"100";"Wind blowing from the south-southwest";"4";"";"Mist";"";"Few clouds (10-30%) 90 m, overcast (100%) 480 m";"5.0";"13.0";
+"29.03.2021 08:20";"13.0";"756.3";"767.3";"100";"Wind blowing from the south-southwest";"4";"";"Mist";"";"Few clouds (10-30%) 90 m, scattered clouds (40-50%) 210 m, overcast (100%) 450 m";"5.0";"13.0";
+"29.03.2021 08:00";"13.0";"756.3";"767.3";"100";"Wind blowing from the south-southwest";"4";"";"Light drizzle";"";"Scattered clouds (40-50%) 90 m, scattered clouds (40-50%) 210 m, overcast (100%) 300 m";"3.0";"13.0";
+"29.03.2021 07:57";"13.0";"756.3";"767.3";"100";"Wind blowing from the south-southwest";"4";"";"Light drizzle";"";"Broken clouds (60-90%) 90 m, scattered clouds (40-50%) 210 m";"1.5";"13.0";
+"29.03.2021 07:40";"13.0";"756.3";"767.3";"100";"Wind blowing from the south-west";"3";"";"Drizzle";"";"Overcast (100%) 90 m";"1.0";"13.0";
+"29.03.2021 07:30";"13.0";"756.3";"767.3";"100";"Wind blowing from the south-west";"3";"";"Drizzle";"";"Overcast (100%) 150 m";"1.5";"13.0";
+"29.03.2021 07:00";"13.0";"756.3";"767.3";"100";"Wind blowing from the south-west";"3";"";"Light drizzle";"";"Broken clouds (60-90%) 60 m, overcast (100%) 300 m";"3.0";"13.0";
+"29.03.2021 06:44";"13.0";"755.6";"766.6";"94";"Wind blowing from the south-west";"4";"";"Drizzle";"";"Scattered clouds (40-50%) 90 m, scattered clouds (40-50%) 210 m, broken clouds (60-90%) 330 m";"2.8";"12.0";
+"29.03.2021 06:30";"13.0";"755.6";"766.6";"94";"Wind blowing from the south-west";"4";"";"Light drizzle";"";"Scattered clouds (40-50%) 210 m, broken clouds (60-90%) 330 m";"3.8";"12.0";
+"29.03.2021 06:12";"13.0";"755.6";"766.6";"94";"Wind blowing from the south-west";"5";"";"Light drizzle";"";"Few clouds (10-30%) 300 m, broken clouds (60-90%) 360 m, broken clouds (60-90%) 450 m";"6.0";"12.0";
+"29.03.2021 06:00";"14.0";"755.6";"766.6";"82";"Wind blowing from the west-southwest";"4";"";"Light drizzle";"";"Scattered clouds (40-50%) 360 m, broken clouds (60-90%) 510 m";"10.0 and more";"11.0";
+"29.03.2021 05:30";"14.0";"754.9";"765.8";"77";"Wind blowing from the west";"2";"";"";"";"Few clouds (10-30%) 480 m, broken clouds (60-90%) 570 m, broken clouds (60-90%) 1140 m";"10.0 and more";"10.0";
+"29.03.2021 05:00";"13.0";"754.8";"765.8";"82";"Wind blowing from the west";"2";"";"";"";"Scattered clouds (40-50%) 570 m, broken clouds (60-90%) 1230 m";"10.0 and more";"10.0";
+"29.03.2021 04:30";"13.0";"754.8";"765.8";"82";"Wind blowing from the west-northwest";"3";"";"";"";"Broken clouds (60-90%) 1290 m";"10.0 and more";"10.0";
+"29.03.2021 04:00";"13.0";"754.8";"765.8";"82";"Wind blowing from the west-northwest";"3";"";"";"";"Broken clouds (60-90%) 1290 m, broken clouds (60-90%) 1560 m";"10.0 and more";"10.0";
+"29.03.2021 03:30";"13.0";"754.8";"765.8";"82";"Wind blowing from the west-northwest";"3";"";"";"";"Few clouds (10-30%) 1320 m, broken clouds (60-90%) 1500 m";"10.0 and more";"10.0";
+"29.03.2021 03:00";"13.0";"754.8";"765.8";"82";"Wind blowing from the north-northwest";"4";"";"";"";"No Significant Clouds";"10.0 and more";"10.0";
+"29.03.2021 02:30";"12.0";"754.8";"765.8";"88";"Wind blowing from the north-northwest";"4";"";"";"";"Few clouds (10-30%) 1350 m";"10.0 and more";"10.0";
+"29.03.2021 02:00";"11.0";"754.7";"765.8";"88";"Wind blowing from the west-northwest";"3";"";"";"";"Few clouds (10-30%) 1350 m";"10.0 and more";"9.0";
+"29.03.2021 01:30";"12.0";"754.8";"765.8";"88";"Wind blowing from the west";"4";"";"";"";"Few clouds (10-30%) 1350 m";"10.0 and more";"10.0";
+"29.03.2021 01:00";"13.0";"754.8";"765.8";"82";"Wind blowing from the west-northwest";"4";"";"";"";"Few clouds (10-30%) 1350 m";"10.0 and more";"10.0";
+"29.03.2021 00:30";"14.0";"754.9";"765.8";"82";"Wind blowing from the west-northwest";"3";"";"";"";"Few clouds (10-30%) 1140 m, broken clouds (60-90%) 1410 m";"10.0 and more";"11.0";
+"29.03.2021 00:00";"14.0";"754.9";"765.8";"82";"Wind blowing from the north-west";"3";"";"";"";"Few clouds (10-30%) 1140 m, broken clouds (60-90%) 1590 m";"10.0 and more";"11.0";
