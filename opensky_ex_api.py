@@ -25,11 +25,12 @@ def get_data(start_airport, end_airport):
         
         if data_res != None:
             for e in data_res:  
+                
                 dict_e = eval(str(e)) 
-                if type(dict_e["callsign"]) == str and len(dict_e["callsign"]) > 0:
-                    dict_e["callsign"] = dict_e["callsign"].strip()
+                
                 for key in dict_e:
                     dict_e[key] = [dict_e[key]]
+
                 new_df = pd.DataFrame(dict_e)
                 flights_data_frame_all = pd.concat([flights_data_frame_all, new_df]).drop_duplicates().reset_index(drop = True) 
                 if dict_e["estArrivalAirport"] == [end_airport]:
