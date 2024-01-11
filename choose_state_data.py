@@ -1,9 +1,6 @@
 import os
 import pandas as pd 
 from datetime import datetime, timedelta
-import tarfile
-import gzip
-import shutil
 
 epoch_time = datetime(1970, 1, 1)
 
@@ -51,7 +48,7 @@ for file_name in os.listdir("usable_flights"):
 
             date_str = dt.strftime("%Y-%m-%d")
             hour_str = dt.strftime("%H") 
-            name_of_file_with_data = "states/" + date_str + "/" + hour_str + "/states_" + date_str + "-" + hour_str + ".csv.tar"
+            name_of_file_with_data = "states/" + date_str + "/" + hour_str + "/states_" + date_str + "-" + hour_str + ".csv"
              
             #print(name_of_file_with_data)
 
@@ -120,24 +117,9 @@ for file_name in os.listdir("usable_flights"):
 
             date_str = dt.strftime("%Y-%m-%d")
             hour_str = dt.strftime("%H") 
-            name_of_file_with_data = "states/" + date_str + "/" + hour_str + "/states_" + date_str + "-" + hour_str + ".csv.tar"
+            name_of_file_pd = "states/" + date_str + "/" + hour_str + "/states_" + date_str + "-" + hour_str + ".csv"
              
-            print(name_of_file_with_data)  
-
-            os.makedirs("states/" + date_str + "/" + hour_str + "/extracted")
-            tfl = tarfile.open(name_of_file_with_data)
-            tfl.extractall("states/" + date_str + "/" + hour_str + "/extracted")
-            with gzip.open("states/" + date_str + "/" + hour_str + "/extracted/states_" + date_str + "-" + hour_str + ".csv.gz") as f_in:
-                with open("states/" + date_str + "/" + hour_str + "/states_" + date_str + "-" + hour_str + ".csv", 'wb') as f_out:
-                    shutil.copyfileobj(f_in, f_out)
-            tfl.close()
-
-            if os.path.isdir("states/" + date_str + "/" + hour_str + "/extracted"):
-                for tf in os.listdir("states/" + date_str + "/" + hour_str + "/extracted"):
-                    os.remove("states/" + date_str + "/" + hour_str + "/extracted/" + tf)
-                os.rmdir("states/" + date_str + "/" + hour_str + "/extracted")
-
-            name_of_file_pd = name_of_file_with_data.replace(".tar", "")
+            print(name_of_file_pd)  
 
             if os.path.isfile(name_of_file_pd):
   
@@ -153,8 +135,6 @@ for file_name in os.listdir("usable_flights"):
                 #print(len(file_with_data)) 
 
                 new_df = pd.concat([new_df, file_with_data])
-
-            os.remove(name_of_file_pd)
 
             dt += timedelta(hours = 1)
 

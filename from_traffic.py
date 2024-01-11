@@ -9,9 +9,14 @@ import os
 console = Console() 
  
 epoch_time = datetime(1970, 1, 1)
+ 
+to_runway = dict()
 
 for usable_traj_filename in os.listdir("usable_trajs"):
- 
+    if ".csv" not in usable_traj_filename:
+        continue
+    print(usable_traj_filename)
+
     pd_file = pd.read_csv("usable_trajs/" + usable_traj_filename, index_col = False)
     old_len = len(pd_file)
     pd_file = pd_file.dropna(subset = ["lon", "lat", "baroaltitude"]) 
@@ -24,7 +29,7 @@ for usable_traj_filename in os.listdir("usable_trajs"):
 
     timestamps_array = []
     for ts in pd_file["time"]: 
-        timestamps_array.append(ts)  
+        timestamps_array.append(traffic.core.time.to_datetime(ts))  
 
     altitudes_array = []
     for ba in pd_file["baroaltitude"]:
@@ -42,14 +47,24 @@ for usable_traj_filename in os.listdir("usable_trajs"):
     pd_file_new["altitude"] = altitudes_array
     pd_file_new["squawk"] = pd_file["squawk"]
   
-    pd_file_new.to_json("usable_trajs/" + usable_traj_filename.replace(".csv", ".json")) 
+    pd_file_new.to_pickle("usable_trajs/" + usable_traj_filename.replace(".csv", ".pkl")) 
 
-    f = traffic.core.Flight.from_file("usable_trajs/" + usable_traj_filename.replace(".csv", ".json"))
-    print(f)
-    pprint(f)
-    console.print(f)
-    print(f.start, f.callsign, f.icao24, f.stop, f.squawk, f.distance(), f.destination)
-    break
+    f = traffic.core.Flight.from_file("usable_trajs/" + usable_traj_filename.replace(".csv", ".pkl"))
+    
+    #print(f)
+    #pprint(f)
+    #console.print(f)
+    #print(f.start, f.callsign, f.icao24, f.stop, f.squawk, f.distance())
+    ta = f.takeoff_airport() 
+    #print(ta)
+    
+    for el in f.takeoff_from_runway(ta):
+        print(el)
+        el.to_csv("mynew.csv")
+        pd_el = pd.read_csv("mynew.csv")
+        runway_nums = list(pd_el["runway"])
+        print(runway_nums)
+        os.remove("mynew.csv")
 
 # https://opensky-network.org/data/data-tools#d1
 # https://easychair.org/publications/paper/BXjT

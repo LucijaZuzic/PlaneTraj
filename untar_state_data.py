@@ -28,5 +28,3 @@ for date_states in os.listdir("states"):
                     os.rmdir("states/" + date_states + "/" + hour_states + "/extracted")
                 tfl.close()
                 os.remove("states/" + date_states + "/" + hour_states + "/" + hour_files)
-        break
-    break
