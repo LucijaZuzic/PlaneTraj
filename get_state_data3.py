@@ -10,7 +10,7 @@ soup_one = BeautifulSoup(reqs_one.text, 'html.parser')
   
 for link_one in soup_one.find_all('a'):
     link_one_href = link_one.get('href')
-    if "2020" not in link_one_href:
+    if "2022" not in link_one_href:
         continue
     if "2" in link_one_href:
         url_two = url_one + link_one_href[2:]
