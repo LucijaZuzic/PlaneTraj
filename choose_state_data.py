@@ -86,6 +86,8 @@ for file_name in os.listdir("usable_flights"):
         cs = str(pd_file["callsign"][ix])
         while len(cs) < 8:
             cs += " "
+        if "nan" in cs:
+            continue
         icao = pd_file["icao24"][ix]
 
         start_sec = pd_file["firstSeen"][ix]

@@ -20,9 +20,11 @@ epoch_time = datetime(1970, 1, 1)
 num_trajs = 0
 to_runway = dict()
 flights_all = []
-
+runways_for_flights = dict()
 for usable_traj_filename in os.listdir("usable_trajs"):
     if ".csv" not in usable_traj_filename:
+        continue
+    if "_processed" in usable_traj_filename:
         continue
     print(usable_traj_filename)
 
@@ -30,7 +32,8 @@ for usable_traj_filename in os.listdir("usable_trajs"):
     old_len = len(pd_file)
     pd_file = pd_file.dropna(subset = ["lon", "lat", "baroaltitude"]) 
     if len(pd_file) != old_len:
-        continue
+        os.remove("usable_trajs/" + usable_traj_filename)
+        continue 
  
     callsign_array = []
     for cs in pd_file["callsign"]: 
@@ -57,9 +60,13 @@ for usable_traj_filename in os.listdir("usable_trajs"):
     pd_file_new["squawk"] = pd_file["squawk"]
   
     pd_file_new.to_pickle("usable_trajs/" + usable_traj_filename.replace(".csv", ".pkl")) 
-
     f = Flight.from_file("usable_trajs/" + usable_traj_filename.replace(".csv", ".pkl"))
-    
+    f = f.filter() 
+    f = f.resample('10s')  
+    f = f.compute_xy(projection = EPSG_3112()) 
+    f.to_pickle("usable_trajs/" + usable_traj_filename.replace(".csv", ".pkl")) 
+    f.to_csv("usable_trajs/" + usable_traj_filename.replace(".csv", "_processed.csv")) 
+ 
     #print(f)
     #pprint(f)
     #console.print(f)
@@ -68,6 +75,8 @@ for usable_traj_filename in os.listdir("usable_trajs"):
     print(ta)
 
     fnd = False
+
+    runways_for_flights[usable_traj_filename.split(".")[0]] = ""
     
     for el in f.takeoff_from_runway(ta):
         print(el)
@@ -75,31 +84,27 @@ for usable_traj_filename in os.listdir("usable_trajs"):
         pd_el = pd.read_csv("mynew.csv")
         runway_nums = list(pd_el["runway"])
         print(runway_nums)
-        #os.remove("mynew.csv")
+        runways_for_flights[usable_traj_filename.split(".")[0]] = runway_nums[0]
+        os.remove("mynew.csv")
         fnd = True
 
     num_trajs += 1
 
     flights_all.append(f)
-    
-    f = f.compute_xy(projection = Lambert93()) 
-    f.to_csv("mynew.csv")
-    pd_el = pd.read_csv("mynew.csv")
-    xv = list(pd_el["x"])
-    yv = list(pd_el["y"])
-    xv = [(x - xv[0]) / 1000 for x in xv[:3]]
-    yv = [(y - yv[0]) / 1000  for y in yv[:3]]
-
-    print(xv, yv) 
-    fig, ax = plt.subplots(subplot_kw = dict(projection = EPSG_3112()))
-    f.plot(ax)
+  
+    #pd_el = pd.read_csv("usable_trajs/" + usable_traj_filename.replace(".csv", "_processed.csv"))
+    #xv = list(pd_el["x"])
+    #yv = list(pd_el["y"])
+    #xv = [(x - xv[0]) / 1000 for x in xv[:3]]
+    #yv = [(y - yv[0]) / 1000  for y in yv[:3]] 
+    #print(xv, yv) 
+    #fig, ax = plt.subplots(subplot_kw = dict(projection = EPSG_3112()))
+    #f.plot(ax)
     #plt.savefig("myfile.png", bbox_inches = "tight") 
-    print(xv, yv) 
-
-    if num_trajs == 10:
-        break
-
-    break
+    #print(xv, yv) 
+ 
+pd_runway = pd.DataFrame({"flight": list(runways_for_flights.keys()), "runway": list(runways_for_flights.values())})
+pd_runway.to_csv("my_runway.csv")
  
 # https://opensky-network.org/data/data-tools#d1
 # https://easychair.org/publications/paper/BXjT
