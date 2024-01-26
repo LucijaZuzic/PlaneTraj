@@ -11,7 +11,7 @@ usable_trajs = set()
    
 for file_name in os.listdir("usable_flights"):
 
-    if "YSSY_YMML" not in file_name:
+    if "LDZA" not in file_name:
         continue
 
     pd_file = pd.read_csv("usable_flights/" + file_name, index_col = False)
@@ -76,7 +76,7 @@ if not os.path.isdir("usable_trajs"):
  
 for file_name in os.listdir("usable_flights"):
 
-    if "YSSY_YMML" not in file_name:
+    if "LDZA" not in file_name:
         continue
   
     pd_file = pd.read_csv("usable_flights/" + file_name, index_col = False)
@@ -89,6 +89,10 @@ for file_name in os.listdir("usable_flights"):
         if "nan" in cs:
             continue
         icao = pd_file["icao24"][ix]
+
+        end_airport = pd_file["arrivalAirport"][ix]
+        if end_airport != "EGLL":
+            continue
 
         start_sec = pd_file["firstSeen"][ix]
         start_time = epoch_time + timedelta(seconds = int(start_sec))

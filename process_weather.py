@@ -1,8 +1,6 @@
-import requests 
 from datetime import datetime, timedelta
 import os
-import shutil
-import requests
+import shutil 
 import gzip
 
 def download_weather(airport, datetime_obj):
@@ -39,5 +37,6 @@ epoch_time = datetime(1970, 1, 1)
 
 while dt <= dt_end:
     download_weather("YMML", dt)
+    download_weather("LDZA", dt)
     download_weather("YSSY", dt)
     dt = dt + timedelta(days = 7)
